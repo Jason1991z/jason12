@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ECSHOP 管理中心 - 类型列表 </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="__PUBLIC__/Admin/Styles/general.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/Admin/Styles/main.css" rel="stylesheet" type="text/css" />
+
+</head>
+<script type="text/javascript" src="__ROOT__/library/jquery/jquery-1.4.js"></script>
+
+<!--鼠标划入高亮显示-->
+<script src="__PUBLIC__/js/tron.js"></script>
+<script type="text/javascript">
+    function del(id){
+        if(confirm("确定要删除该记录吗?")){
+            window.location="__APP__/type/deltype/id/"+id;
+        }
+    }
+
+</script>
+
+<body>
+<include file="Public:top"/>
+<div class="form-div">
+    <form action="__APP__/type/lst" name="searchForm" method="get">
+
+        <!--属性名称-->
+        <label>属性名称:</label>
+        <input type="text" value="" name="type_name"/>
+        <br/><br/>
+        <input type="submit" value="搜索" />
+    </form>
+</div>
+
+<!-- 商品列表 -->
+<form method="post" action="" name="listForm" onsubmit="">
+    <div class="list-div" id="listDiv">
+        <table cellpadding="3" cellspacing="1">
+            <tr>
+                <th>类型名称</th>
+                <th>操作</th>
+
+            </tr>
+
+            <?php foreach($typeinfo as $v){?>
+            <tr class="tron">
+                <td align="center"><?php echo $v['type_name']?></td>
+                <td align="center">
+                    <a href="__APP__/attribute/lst/id/<?php echo $v['id']?>">属性列表</a> |
+                    <a href="__APP__/type/edit/id/<?php echo $v['id']?>">修改</a> |
+                    <a href="javascript:del(<?php echo $v['id']?>)">删除</a></td>
+            </tr>
+            <?php }?>
+        </table>
+
+        <!-- 分页开始 -->
+        <table id="page-table" cellspacing="0">
+            <tr>
+                <td width="80%">&nbsp;</td>
+                <td align="center" nowrap="true">
+                    <?php echo $pageList?>
+                </td>
+            </tr>
+        </table>
+        <!-- 分页结束 -->
+    </div>
+</form>
+<include file="Public:footer"/>
+</body>
+</html>

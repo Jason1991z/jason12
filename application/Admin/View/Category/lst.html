@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ECSHOP 管理中心 - 分类列表 </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="__PUBLIC__/Admin/Styles/general.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/Admin/Styles/main.css" rel="stylesheet" type="text/css" />
+
+</head>
+<script type="text/javascript" src="__ROOT__/library/jquery/jquery-1.4.js"></script>
+
+<!--鼠标划入高亮显示-->
+<script src="__PUBLIC__/js/tron.js"></script>
+<script type="text/javascript">
+    function del(id){
+        if(confirm("确定要删除该记录吗?")){
+            window.location="__APP__/Category/delcategory/id/"+id;
+        }
+    }
+</script>
+
+<body>
+<include file="Public:top"/>
+
+
+<!-- 商品列表 -->
+<form method="post" action="" name="listForm" onsubmit="">
+    <div class="list-div" id="listDiv">
+        <table cellpadding="3" cellspacing="1" style="width:800px" align="center">
+            <tr>
+                <th align="left" >商品名称</th>
+                <th align="center" >操作</th>
+            </tr>
+
+            <?php foreach($category as $v){?>
+            <tr class="tron">
+                <td align="left" class="first-cell"><span><?php echo str_repeat("-",8*$v['level']).$v['cat_name']?></span></td>
+                <td align="center"><a href="__APP__/Category/edit/id/<?php echo $v['cat_id']?>">修改</a> | <a href="javascript:del(<?php echo $v['cat_id']?>)">删除</a></td>
+            </tr>
+            <?php }?>
+        </table>
+
+    </div>
+</form>
+<include file="Public:footer"/>
+</body>
+</html>

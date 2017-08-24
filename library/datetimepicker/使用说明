@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="time/css/style.css" />
+<script src="time/js/jquery.min.js"></script>
+<script src="time/js/Ecalendar.jquery.min.js"></script>
+
+$(function(){
+        $("#ECalendar_case1").ECalendar({
+            type:"time",   //模式，time: 带时间选择; date: 不带时间选择;
+            stamp : false,   //是否转成时间戳，默认true;
+            offset:[0,2],   //弹框手动偏移量;
+            format:"",   //时间格式 默认 yyyy-mm-dd hh:ii;
+            skin:2,   //皮肤颜色，默认随机，可选值：0-8,或者直接标注颜色值;
+            step:10,   //选择时间分钟的精确度;
+        });
+
+    })

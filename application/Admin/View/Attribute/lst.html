@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ECSHOP 管理中心 - 属性列表 </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="__PUBLIC__/Admin/Styles/general.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/Admin/Styles/main.css" rel="stylesheet" type="text/css" />
+
+</head>
+<script type="text/javascript" src="__ROOT__/library/jquery/jquery-1.4.js"></script>
+<!-- 时间插件 -->
+<link rel="stylesheet" href="__ROOT__/library/datetimepicker/css/style.css" />
+<script src="__ROOT__/library/datetimepicker/js/jquery.min.js"></script>
+<script src="__ROOT__/library/datetimepicker/js/Ecalendar.jquery.min.js"></script>
+<!--鼠标划入高亮显示-->
+<script src="__PUBLIC__/js/tron.js"></script>
+<script type="text/javascript">
+    function del(id,type_id){
+        if(confirm("确定要删除该记录吗?")){
+            window.location="__APP__/attribute/del/id/"+id+"/type_id/"+type_id;
+        }
+    }
+
+</script>
+
+<body>
+<include file="Public:top"/>
+<div class="form-div">
+    <form action="__APP__/attribute/lst" name="searchForm" method="get">
+        <p>
+            属性名称：
+            <input type="text" name="attr_name" size="30" value="<?php echo I('get.attr_name'); ?>" />
+        </p>
+        <p>
+            属性类型：
+            <input type="radio" value="-1" name="attr_type"  <?php if(I("get.attr_type")==""|| I("get.attr_type")==-1){echo "checked='checked'";}?>/> 全部
+            <input type="radio" value="唯一" name="attr_type" <?php if(I("get.attr_type")=="唯一"){echo "checked='checked'";}?>/> 唯一
+            <input type="radio" value="可选" name="attr_type"  <?php if(I("get.attr_type")=="可选"){echo "checked='checked'";}?>/> 可选
+        </p>
+        <p>
+            所属类型：<?php $id=I("get.id");if(I("get.type_id")){
+            $id=I("get.type_id");
+        }; showSelect("type","type_id","id","type_name",$id)?>
+        </p>
+        <p><input type="submit" value=" 搜索 " class="button" /></p>
+    </form>
+</div>
+
+<!-- 商品列表 -->
+<form method="post" action="" name="listForm" onsubmit="">
+    <div class="list-div" id="listDiv">
+        <table cellpadding="3" cellspacing="1">
+
+            <tr>
+                <th >属性名称</th>
+                <th >属性类型</th>
+                <th >属性可选值</th>
+                <th >所属类型Id</th>
+                <th width="60">操作</th>
+            </tr>
+            <?php foreach ($attribute as $k=>$v): ?>
+            <tr class="tron">
+                <td align="center"><?php echo $v['attr_name']; ?></td>
+                <td align="center"><?php echo $v['attr_type']; ?></td>
+                <td align="center"><?php echo $v['attr_option_values']; ?></td>
+                <td align="center"><?php echo $v['type_id']; ?></td>
+                <td align="center">
+                    <a href="__APP__/attribute/edit/id/<?php echo $v['id']?>">编辑</a> |
+                    <a href="javascript:del(<?php echo ($v['id'].",".$v['type_id']) ?>)">移除</a>
+                </td>
+            </tr>
+            <?php endforeach; ?>
+            <?php if(preg_match('/\d/', $page)): ?>
+            <tr><td align="right" nowrap="true" colspan="99" height="30"><?php echo $page; ?></td></tr>
+            <?php endif; ?>
+        </table>
+        <!-- 分页结束 -->
+    </div>
+</form>
+<include file="Public:footer"/>
+</body>
+</html>
