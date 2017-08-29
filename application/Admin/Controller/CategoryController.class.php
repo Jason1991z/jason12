@@ -3,7 +3,7 @@ namespace Admin\Controller;
 use Think\Controller;
 
 
-class CategoryController extends Controller{
+class CategoryController extends BaseController{
     public function lst(){
         $model=D("category");
 

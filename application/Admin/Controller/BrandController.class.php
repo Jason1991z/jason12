@@ -2,7 +2,7 @@
 namespace Admin\Controller;
 use Think\Controller;
 
-class BrandController extends Controller{
+class BrandController extends BaseController{
 	public function index(){
 		$this->assign(array(
 				"page_title"=>"添加品牌",

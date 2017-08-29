@@ -2,16 +2,74 @@
 namespace Admin\Controller;
 use Think\Controller;
 
-class GoodsController extends Controller{
+class GoodsController extends BaseController{
     //goods_number商品库存添加显示
     public function goods_number(){
+        $goods_id=I("get.id");
+        $gamodel=D("goods_attr");
+        $gnmodel=D("goods_number");
+
+        /***处理数据提交表单***/
+        if(IS_POST){
+            /***修改前先删除数据后再添加进去***/
+            $gnmodel->where("goods_id=".I("post.goods_id"))->delete();
+            
+            $good_attr_id=I("post.good_attr_id");
+            $goods_number=I("post.goods_number");
+
+
+            /***获取倍率***/
+            $gaiC=count($good_attr_id);
+            $gnC=count($goods_number);
+            $rate=$gaiC/$gnC;
+            $_i=0;
+            foreach($goods_number as $k=>$v){
+                $_arr=array();
+                for($i=0;$i<$rate;$i++){
+                    $_arr[]=$good_attr_id[$_i];
+                    $_i++;
+                }
+                
+                /***数组转字符串,并以升序排列***/
+                sort($_arr,SORT_NUMERIC);
+                
+                $str=implode(",",$_arr);
+
+                $gnmodel->add(array(
+                        "goods_id"=>I("post.goods_id"),
+                        "goods_number"=>$v,
+                        "goods_attr_id"=>$str,
+                    ));
+            }
+            
+            $this->success("设置成功",__APP__."/goods/goods_number/id/".I("post.goods_id"));
+        }
+        
+        $gainfo=$gamodel->field("a.*,b.attr_name,b.attr_type")->alias("a")
+        ->join("left join attribute b on a.attr_id=b.id")
+        ->where("goods_id={$goods_id} and b.attr_type='可选'")->select();
+
+        /***goods_number中如果有数据就取出显示***/
+        $gninfo=$gnmodel->where("goods_id={$goods_id}")->select();
+        
+        
+        $_gainfo=array();
+        foreach($gainfo as $k=>$v){
+            if($v['attr_type']=='可选'){
+                $_gainfo[$v['attr_name']][]=$v;
+            }
+        }
         
         $this->assign(array(
-            '_page_title' => '库存量',
-            '_page_btn_name' => '返回列表',
-            '_page_btn_link' => "__APP__/goods/lst",
-        
+            "page_title"=>"库存量",
+            "page_btn"=>"返回列表",
+            "page_url"=>__APP__."/Goods/lst",
+            "gainfo"=>$gainfo,  
+            "_gainfo"=>$_gainfo,
+            "gninfo"=>$gninfo,
         ));
+
+
         $this->display();
     }
 
@@ -96,7 +154,7 @@ class GoodsController extends Controller{
     }
 
     public function lst(){
-
+        
         $model=D('goods');
 
         $membermodel=D('member_level');
@@ -116,7 +174,6 @@ class GoodsController extends Controller{
             "page_url"=>__APP__."/Goods/index",
             "tree"=>$tree
         ));
-
         $this->display();
     }
 

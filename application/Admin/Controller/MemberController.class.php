@@ -3,7 +3,7 @@ namespace Admin\Controller;
 use Think\Controller;
 
 
-class MemberController extends Controller{
+class MemberController extends BaseController{
     public function lst(){
         $model=D("member_level");
 

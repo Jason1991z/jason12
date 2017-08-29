@@ -3,7 +3,7 @@
 <head>
     <title>系统提示信息</title>
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-    <link href="/ECshop/admin.php/Goods/public/css/bbs.css" type="text/css" rel="stylesheet">
+    <link href="/ECshop/public/css/bbs.css" type="text/css" rel="stylesheet">
     <script type="text/javascript">
         var index = 5;
         function changeTime()

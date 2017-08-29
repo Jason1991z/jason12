@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>ECSHOP 管理中心 - 添加角色 </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="__PUBLIC__/Admin/Styles/general.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/Admin/Styles/main.css" rel="stylesheet" type="text/css" />
+</head>
+<script type="text/javascript" src="__ROOT__/library/jquery/jquery-1.4.js"></script>
+<script>
+    $(function(){
+        $(":checkbox").click(function(){
+            var level=$(this).attr("level");
+            var pid=$(this).val();
+            if($(this).attr("checked")){
+                $(this).nextAll(":checkbox").each(function(k,v){
+                    if($(v).attr("level")>level && $(v).attr("pid")==pid){
+                        $(v).attr("checked","checked");
+                    }
+                });    
+
+            }else{
+                $(this).nextAll(":checkbox").each(function(k,v){
+                    if($($(v).attr("level")>level && $(v).attr("pid")==pid)){
+                        $(v).removeAttr("checked");
+                    }
+                });
+            }
+            
+        });
+    });
+</script>
+<body>
+<include file="Public:top"/>
+
+<div class="tab-div">
+    <div id="tabbar-div">
+        <p>
+            <span class="tab-front" id="general-tab">通用信息</span>
+        </p>
+    </div>
+    <div id="tabbody-div">
+        <form enctype="multipart/form-data" action="__APP__/role/add" method="post">
+            <table width="90%" id="general-table" align="center">
+                
+
+                <tr>
+                    <td class="label">角色名称：</td>
+                    <td><input type="text" name="role_name" value="" size="30" />
+                        <span class="require-field">*</span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="label">权限列表：</td>
+                    <td>
+                        <?php foreach($tree as $k=>$v){?>
+                            <?php echo str_repeat("-", 8*$v["level"])?>
+                            <input pid="<?php echo $v['pid']?>" level="<?php echo $v['level']?>" type="checkbox" name="pri_id[]" value="<?php echo $v['id']?>"/>
+                            <?php echo $v['pri_name']?><br/>
+                        <?php }?>
+                    </td>
+                </tr>
+
+
+            </table>
+            <div class="button-div">
+                <input type="submit" value=" 确定 " class="button"/>
+                <input type="reset" value=" 重置 " class="button" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<include file="Public:footer"/>
+</body>
+</html>

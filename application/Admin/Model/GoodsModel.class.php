@@ -176,6 +176,10 @@ class GoodsModel extends Model{
 
         $id=$option['where']['id'];
 
+        /***删除库存量***/
+        $gnmodel=D("goods_number");
+        $gnmodel->where("goods_id={$id}")->delete();
+
         /**********删除商品属性***********/
         $attrmodel=D("goods_attr");
         $attrmodel->where("goods_id={$id}")->delete();

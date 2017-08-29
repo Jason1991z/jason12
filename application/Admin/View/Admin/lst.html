@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ECSHOP 管理中心 - 管理员列表 </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="__PUBLIC__/Admin/Styles/general.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/Admin/Styles/main.css" rel="stylesheet" type="text/css" />
+
+</head>
+<script type="text/javascript" src="__ROOT__/library/jquery/jquery-1.4.js"></script>
+
+<!--鼠标划入高亮显示-->
+<script src="__PUBLIC__/js/tron.js"></script>
+<script type="text/javascript">
+    function del(id){
+        if(confirm("确定要删除该记录吗?")){
+            window.location="__APP__/admin/deladm/id/"+id;
+        }
+    }
+</script>
+
+<body>
+<include file="Public:top"/>
+
+
+<!-- 商品列表 -->
+<form method="post" action="" name="listForm" onsubmit="">
+    <div class="list-div" id="listDiv">
+        <table cellpadding="3" cellspacing="1" >
+            <tr>
+                <th align="left" >管理员名称</th>
+                <th align="left" >角色名称</th>
+                <th align="left" >管理员密码</th>
+                <th align="center" >操作</th>
+            </tr>
+
+            <?php foreach($admin as $v){?>
+            <tr class="tron">
+                <td align="left" class="first-cell"><span><?php echo $v['username']?></span></td>
+                 <td align="left" class="first-cell"><span><?php if($v['username']=="root"){echo "超级管理员";}else{echo $v['role_name'];}?></span></td>
+                <td align="left" class="first-cell"><span><?php echo $v['password']?></span></td>
+                <td align="center"><a href="__APP__/admin/edit/id/<?php echo $v['id']?>">修改</a> 
+                <?php if($v['username']!="root"){ ?>
+                    | <a href="javascript:del(<?php echo $v['id']?>)">删除</a>
+                <?php }?>
+                </td>
+            </tr>
+            <?php }?>
+        </table>
+
+    </div>
+</form>
+<include file="Public:footer"/>
+</body>
+</html>

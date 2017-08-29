@@ -139,7 +139,7 @@
                     <td align="center"><span><?php echo $v['is_on_sale']?></span></td>
                     <td align="center"><span><?php echo $v['addtime']?></span></td>
                     <td align="center">
-                    <a href="/ECshop/admin.php/Goods/goods_number">库存量</a>
+                    <a href="/ECshop/admin.php/Goods/goods_number/id/<?php echo $v['id']?>">库存量</a>
                     <a href="/ECshop/admin.php/Goods/edit/id/<?php echo $v['id']?>">修改</a> | 
                     <a href="javascript:del(<?php echo $v['id']?>)">删除</a></td>
                 </tr>

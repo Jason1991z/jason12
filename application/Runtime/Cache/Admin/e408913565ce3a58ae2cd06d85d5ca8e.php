@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <title>ECSHOP 管理中心 - 添加新品牌 </title>
+    <title>ECSHOP 管理中心 - 添加新分类 </title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href="/ECshop/Public/Admin/Styles/general.css" rel="stylesheet" type="text/css" />
     <link href="/ECshop/Public/Admin/Styles/main.css" rel="stylesheet" type="text/css" />

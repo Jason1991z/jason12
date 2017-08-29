@@ -3,7 +3,7 @@ namespace Admin\Controller;
 use Think\Controller;
 
 
-class TypeController extends Controller{
+class TypeController extends BaseController{
     public function lst(){
         $type_model=D("type");
 

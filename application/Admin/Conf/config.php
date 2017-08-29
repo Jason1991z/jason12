@@ -17,7 +17,7 @@ return array(
     'DB_FIELDS_CACHE'       =>  false,        // 启用字段缓存
 
     //系统提示信息页面
-    'TMPL_ACTION_ERROR'     =>  'Public:success', // 默认错误跳转对应的模板文件
+    'TMPL_ACTION_ERROR'     =>  THINK_PATH.'Tpl/dispatch_jump.tpl', // 默认错误跳转对应的模板文件
     'TMPL_ACTION_SUCCESS'   =>  'Public:success', // 默认成功跳转对应的模板文件
 
     //url路由
