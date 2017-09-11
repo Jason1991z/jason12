@@ -18,7 +18,12 @@ function dateformat($t)
 }
 
 
-
+function showImg($url,$width='',$height=''){
+    $ic=C("IMG_CONFIG");
+    $width="width='$width'";
+    $height="height='$height'";
+    echo"<img $width $height src={$ic['viewPath']}$url>";
+}
 
 
 

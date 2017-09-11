@@ -12,6 +12,10 @@
 </style>
 <script src="/ECshop/library/jquery/jquery-1.4.js"></script>
 <script src="/ECshop/library/kindeditor/kindeditor.js"></script>
+<!-- 时间插件 -->
+<link rel="stylesheet" href="/ECshop/library/datetimepicker/css/style.css" />
+<script src="/ECshop/library/datetimepicker/js/jquery.min.js"></script>
+<script src="/ECshop/library/datetimepicker/js/Ecalendar.jquery.min.js"></script>
 <script type="text/javascript">
     var editor;
     KindEditor.ready(function(e){
@@ -90,6 +94,29 @@
 
 
     }
+
+
+//时间插件
+$(function(){
+        $("#promote_start_date").ECalendar({
+            type:"time",   //模式，time: 带时间选择; date: 不带时间选择;
+            stamp : false,   //是否转成时间戳，默认true;
+            offset:[0,2],   //弹框手动偏移量;
+            format:"",   //时间格式 默认 yyyy-mm-dd hh:ii;
+            skin:2,   //皮肤颜色，默认随机，可选值：0-8,或者直接标注颜色值;
+            step:10,   //选择时间分钟的精确度;
+        });
+
+        $("#promote_end_date").ECalendar({
+            type:"time",   //模式，time: 带时间选择; date: 不带时间选择;
+            stamp : false,   //是否转成时间戳，默认true;
+            offset:[0,2],   //弹框手动偏移量;
+            format:"",   //时间格式 默认 yyyy-mm-dd hh:ii;
+            skin:2,   //皮肤颜色，默认随机，可选值：0-8,或者直接标注颜色值;
+            step:10,   //选择时间分钟的精确度;
+        });
+    });
+    
 </script>
 <body>
 <h1>
@@ -182,6 +209,54 @@
                     <td class="label">市场售价：</td>
                     <td>
                         <input type="text" name="market_price" value="0" size="20" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="label">促销价格：</td>
+                    <td>
+                        ￥<input type="text" name="promote_price" value="0" size="5" />元；
+                        从<input type="text" size="23" name="promote_start_date" value="" id="promote_start_date"/>到
+                        <input type="text" size="23" name="promote_end_date" value="" id="promote_end_date"/>结束
+
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="label">是否精品：</td>
+                    <td>
+                        <input type="radio" name="is_best" value="是" /> 是
+                        <input type="radio" name="is_best" value="否" checked="checked"/> 否
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="label">是否新品：</td>
+                    <td>
+                        <input type="radio" name="is_new" value="是" /> 是
+                        <input type="radio" name="is_new" value="否" checked="checked"/> 否
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="label">是否热卖：</td>
+                    <td>
+                        <input type="radio" name="is_hot" value="是" /> 是
+                        <input type="radio" name="is_hot" value="否" checked="checked"/> 否
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">推荐到楼层：</td>
+                    <td>
+                        <input type="radio" name="is_floor" value="是" /> 是
+                        <input type="radio" name="is_floor" value="否" checked="checked"/> 否
+                    </td>
+                </tr>
+				
+                <tr>
+                    <td class="label">商品排序：</td>
+                    <td>
+                        <input type="text" name="sort_num" value="100" size="5"/>
                     </td>
                 </tr>
             </table>

@@ -24,6 +24,21 @@ create table goods
 	brand_id mediumint unsigned not null default 0 comment'品牌id',
 	cat_id int unsigned not null default 0 comment'分类id',
 	type_id mediumint unsigned not null default '0' comment '类型Id',
+	promote_price decimal(10,2) not null default '0' comment '促销价格',
+	promote_start_date datetime not null comment '促销开始时间',
+	promote_end_date datetime not null comment '促销结束时间',
+	is_new enum('是','否') not null default '否' comment '是否新品',
+	is_best enum('是','否') not null default '否' comment '是否精品',
+	is_hot enum('是','否') not null default '否' comment '是否热卖',
+	sort_num int not null default "100" comment '商品排序',
+	is_floor enum('是','否') not null default '否' comment '是否顶层推荐',
+	key sort_num (sort_num),
+	key promote_price (promote_price),
+	key promote_start_date (promote_start_date),
+	key promote_end_date (promote_end_date),
+	key is_new (is_new),
+	key is_best (is_best),
+	key is_hot (is_hot),
 	primary key (id),
 	key cat_id(cat_id),
 	key shop_price(shop_price),
@@ -65,6 +80,7 @@ create table category
 	cat_id int unsigned primary key auto_increment comment'商品分类id',
 	cat_name varchar(50) not null comment'商品分类名称',
 	pid int not null default 0 comment'商品分类父类id 0代表顶级菜单',
+	is_floor enum('是'，'否') not null default '否' comment '是否顶层推荐',
 	key cat_id (cat_id)
 )engine=InnoDB default charset=utf8 comment '商品分类';
 
@@ -215,11 +231,60 @@ create table admin
 INSERT INTO admin(id,username,password) VALUES(1,'root','63a9f0ea7bb98050796b649e85481845');
 
 
+create table member
+(
+	id mediumint unsigned not null auto_increment comment 'Id',
+	username varchar(30) not null unique comment '用户名',
+	password char(32) not null comment '密码',
+	face varchar(150) not null default '' comment '头像',
+	jifen mediumint unsigned not null default '0' comment '积分',
+	primary key (id)
+)engine=InnoDB default charset=utf8 comment '会员';
+
+/*********************** 购物车 ***********************************/
+create table cart
+(
+	id mediumint unsigned not null primary key auto_increment comment 'Id',
+	goods_id mediumint unsigned not null comment '商品Id',
+	goods_attr_id varchar(150) not null default '' comment '商品属性Id',
+	goods_number mediumint unsigned not null comment '购买的数量',
+	member_id mediumint unsigned not null comment '会员Id',
+	key member_id(member_id)
+)engine=InnoDB default charset=utf8 comment '购物车';
 
 
+/*********************** 订单 ***********************************/
 
 
+create table orders
+(
+	id mediumint unsigned not null primary key auto_increment comment 'Id',
+	member_id mediumint unsigned not null comment '会员Id',
+	addtime int unsigned not null comment '下单时间',
+	pay_status enum('是','否') not null default '否' comment '支付状态',
+	pay_time int unsigned not null default '0' comment '支付时间',
+	total_price decimal(10,2) not null comment '定单总价',
+	shr_name varchar(30) not null comment '收货人姓名',
+	shr_tel varchar(30) not null comment '收货人电话',
+	shr_province varchar(30) not null comment '收货人省',
+	shr_city varchar(30) not null comment '收货人城市',
+	shr_area varchar(30) not null comment '收货人地区',
+	shr_address varchar(30) not null comment '收货人详细地址',
+	post_status tinyint unsigned not null default '0' comment '发货状态,0:未发货,1:已发货2:已收到货',
+	post_number varchar(30) not null default '' comment '快递号',
+	key member_id(member_id),
+	key addtime(addtime)
+)engine=InnoDB default charset=utf8 comment '定单基本信息';
 
-
-
+create table order_goods
+(
+	id mediumint unsigned not null primary key auto_increment comment 'Id',
+	order_id mediumint unsigned not null comment '定单Id',
+	goods_id mediumint unsigned not null comment '商品Id',
+	goods_attr_id varchar(150) not null default '' comment '商品属性id',
+	goods_number mediumint unsigned not null comment '购买的数量',
+	price decimal(10,2) not null comment '购买的价格',
+	key order_id(order_id),
+	key goods_id(goods_id)
+)engine=InnoDB default charset=utf8 comment '定单商品表';
 

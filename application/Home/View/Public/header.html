@@ -30,17 +30,15 @@
 			<!-- 头部搜索 end -->
 
 			<!-- 用户中心 start-->
-			<div class="user fl">
+				<div class="user fl" id="test">
 				<dl>
 					<dt>
 						<em></em>
-						<a href="">用户中心</a>
+						<a href="" >用户中心</a>
 						<b></b>
 					</dt>
 					<dd>
-						<div class="prompt">
-							您好，请<a href="">登录</a>
-						</div>
+						<p id="userLoging"><div class='prompt'>您好，请<a href=''>登录</a></div></p>
 						<div class="uclist mt10">
 							<ul class="list1 fl">
 								<li><a href="">用户信息></a></li>
@@ -60,16 +58,13 @@
 						<div style="clear:both;"></div>
 						<div class="viewlist mt10">
 							<h3>最近浏览的商品：</h3>
-							<ul>
-								<li><a href=""><img src="__PUBLIC__/Home/images/view_list1.jpg" alt="" /></a></li>
-								<li><a href=""><img src="__PUBLIC__/Home/images/view_list2.jpg" alt="" /></a></li>
-								<li><a href=""><img src="__PUBLIC__/Home/images/view_list3.jpg" alt="" /></a></li>
-							</ul>
+							<div id="look_history" style="font-size:15px;">最近无浏览历史</div>
 						</div>
 					</dd>
 				</dl>
 			</div>
 			<!-- 用户中心 end-->
+
 
 			<!-- 购物车 start -->
 			<div class="cart fl">
@@ -102,8 +97,8 @@
 				
 				<div class="cat_bd <?php if($_show_nav==0){echo 'none';}?>">
 					
-					<?php var_dump($_arr);?>
-					<?php foreach($pridata as $k=>$v){?>
+					
+					<?php foreach($catdata as $k=>$v){?>
 						<div class="cat item1">
 							<h3><a href=""><?php echo $v['cat_name']?></a><b></b></h3>
 							<div class="cat_detail">
@@ -144,3 +139,54 @@
 	</div>
 	<!-- 头部 end-->
 	<div style="clear:both;"></div>
+
+	<script>
+	
+	//用户信息	
+	$.ajax({
+		type:"get",
+		url:"__APP__/index/AjaxUserCenter",
+		dataType:"json",
+		success:function(data){
+			
+			var i="";
+
+			if(data!=""){
+				i += "<div class='prompt'>您好,<a href=''>"+data.username+"</a></div>";
+			}
+			
+			$("#userLoging").html(i);
+		}
+	});
+
+	//用户中心->最近浏览的商品
+	
+	$.ajax({
+		type:'get',
+		url:"__APP__/index/AjaxLook_history",
+		dataType:"json",
+		success:function(data){
+			
+			var i ="";
+			if(data != null){
+				i+="<ul>";
+
+				$(data).each(function(k,v){
+					
+					i+="<li><a href=''><img src='__ROOT__/public/uploads/"+v.mid_logo+"' alt='' /></a></li>";
+
+				});
+				
+				i+="</ul>";
+			}
+			$("#look_history").html(i);
+		}
+	});
+		
+		
+	
+
+	
+	
+
+	</script>

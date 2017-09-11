@@ -6,8 +6,8 @@ use Think\Page;
 class GoodsModel extends Model{
     //只允许接收某些字段
 
-    protected $insertFields="goods_name,market_price,shop_price,is_on_sale,goods_desc,brand_id,price,cat_id,type_id";
-    protected $updateFields="cat_id,id,goods_name,market_price,shop_price,is_on_sale,goods_desc,member_price[],brand_id,";
+    protected $insertFields="goods_name,market_price,shop_price,is_on_sale,goods_desc,brand_id,price,cat_id,type_id,promote_price,promote_start_date,promote_end_date,is_new,is_best,is_hot,sort_num,is_floor";
+    protected $updateFields="cat_id,id,goods_name,market_price,shop_price,is_on_sale,goods_desc,member_price[],brand_id,promote_price,promote_start_date,promote_end_date,is_new,is_best,is_hot,sort_num,is_floor";
     //TP验证接收过来的数据
     protected $_validate=array(
         array("goods_name","require","商品名称不能空!",1),
@@ -48,33 +48,41 @@ class GoodsModel extends Model{
     }
 
     public function category($cat_id){
-        $cat_model=D("category");
+        $cat_model=D("Admin/Category");
         $children=$cat_model->getChildren($cat_id);
-        $children[]=$cat_id;
-        $children=implode(",",$children);
 
+        $children[]=$cat_id;
+        
+        
         /*********************主分类下的子类的商品Id或扩展类的商品Id************************/
 
         //1.取出商品在主类下的商品Id
-        $gids=$this->field("id")->where("cat_id in ({$children})")->select();
-        //$gids=4
+        $gids=$this->field("id")->where(array(
+                "cat_id"=>array("in",$children),
+            ))->select();
+
         //2.取出扩展分类下的商品Id
         $gcmodel=D("goods_cat");
-        $gids1=$gcmodel->field("distinct goods_id id")->where("cat_id in ({$children})")->select();
-        //$gids1=null;
+        $gids1=$gcmodel->field("distinct goods_id id")->where(array(
+                "cat_id"=>array("in",$children),
+            ))->select();
+        
+        
         //3.合并1,2的商品id;
         if($gids1 && $gids  ) {
             $gids = array_merge($gids1, $gids);
         }else if($gids1){
             $gids=$gids1;
         }
+        
         $arr=array();
+
         foreach($gids as $k=>$v){
             if(!in_array($v['id'],$arr)){
-                $arr[]=$v['id'];
+                    $arr[]=$v['id']; 
             }
         }
-
+        
         return $arr;
     }
 
@@ -226,7 +234,7 @@ class GoodsModel extends Model{
     protected function _before_update(&$data,$option){
             $id=I('post.id');
         /*********处理商品属性更新*************/
-        
+            
             $gamodel=D("goods_attr");
             $attrinfo=I("post.attr_value");
             $gaid=I("post.goods_attr_id");
@@ -331,6 +339,7 @@ class GoodsModel extends Model{
                         "sm_pic"=>$ret['images'][3],
                         "goods_id"=>$id
                     ));
+
                 }
             }
         }
@@ -431,7 +440,84 @@ class GoodsModel extends Model{
             $cat_goods_model->add($arr);
         }
 
+        
+    }
+/***************************前台操作************************************/
+//取出抢购商品
+    public function get_pro(){
+        $date=date("Y-m-d H:i:s");
+        $proinfo=M("goods")->field("id,promote_price,goods_name,mid_logo")
+        ->where("is_on_sale='是' and promote_price > 0 and promote_start_date<'{$date}' and promote_end_date>'{$date}'")
+        ->order("sort_num asc")
+        ->limit(5)->select();
+        
+        return $proinfo;
     }
 
+    /*获取商品热卖推荐新品
+     * @param  [type] $type [is_hot|is_best|is_new]
+     * @return [rs]   $rs   [返回商品信息]
+     */
+    public function get_good_info($type){
+        $rs=M("goods")->field("id,shop_price,goods_name,mid_logo")->where("{$type}='是'")->order("sort_num asc")->limit(5)->select();
+        return $rs;
+    }
 
+    public function getMemberPrice($goods_id){
+        $level_id=session("level_id");
+        $day=date("Y-m-d H:i");
+
+        //获取促销价格
+        $pro_price=$this->field("promote_price")->where(array(
+                "is_on_sale"=>array('eq',"是"),
+                "promote_price"=>array('gt',0),
+                "promote_start_date"=>array('lt',$day),
+                "promote_end_date"=>array('gt',$day),
+            ))->find();
+
+        //判断是否登录
+        if(session("level_id")){
+
+            $memModel=D("member_price");
+
+            $mpdata=$memModel->field("price")->where(array(
+
+                "goods_id"=>array('eq',$goods_id),
+                "level_id"=>array('eq',$level_id),
+
+            ))->find();
+
+            //判断是否有设置会员价格,有就显示,无就显示本店价格
+            if($mpdata['price']){
+                if($pro_price['promote_price']){
+                    return min($pro_price['promote_price'],$mpdata['price']);
+                }else{
+                    return $mpdata['price'];
+                }
+                
+
+            }else{
+                $pri=$this->field("shop_price")->find($goods_id);
+                if($pro_price['promote_price']){
+                    return min($pro_price['promote_price'],$pri['shop_price']);
+                }else{ 
+                    return $pri['shop_price'];
+                }
+                
+            }
+
+            //否则就显示本店价格
+        }else{
+
+            $pri=$this->field("shop_price")->find($goods_id);
+            if($pro_price['promote_price']){
+                return min($pro_price['promote_price'],$pri['shop_price']);
+            }else{
+                return $pri['shop_price'];
+            }
+            
+        }
+        
+    }
+/****************************底层***************************************/
 }

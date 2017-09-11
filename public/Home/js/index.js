@@ -21,11 +21,17 @@ $(function(){
 	});
 
 	//各楼层区域切换
-	$(".goodslist h2 span").mouseover(function(){
+	$("#goodslist0 h2 span").mouseover(function(){
 		$(this).addClass("on").siblings().removeClass("on");
-		$(".goodslist_wrap div").hide().eq($(this).index()).show();
-
+		$("#goodslist_wrap0 div").hide().eq($(this).index()).show();
 	});
+	
+	$("#goodslist1 h2 span").mouseover(function(){
+		//alert($(this).index());
+		$(this).addClass("on").siblings().removeClass("on");
+		$("#goodslist_wrap1 div").hide().eq($(this).index()).show();
+	});
+
 
 	//首页幻灯片效果
 	var len = $(".slide_items li").size(); //获取图片的数目

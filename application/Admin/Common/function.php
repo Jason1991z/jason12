@@ -37,8 +37,9 @@ function removeXSS($data)
     // 执行过滤
     return $_clean_xss_obj->purify($data);
 }
-
-function showImg($url,$width='',$height=''){
+//显示图片
+function showImg($url,$width='',$height='')
+{
     $ic=C("IMG_CONFIG");
     $width="width='$width'";
     $height="height='$height'";
@@ -59,23 +60,23 @@ function deleteImage($image = array())
  * 上传图片并生成缩略图
  * 用法：
  * $ret = uploadOne('logo', 'Goods', array(
-array(600, 600),
-array(300, 300),
-array(100, 100),
-));
-返回值：
-if($ret['ok'] == 1)
-{
-$ret['images'][0];   // 原图地址
-$ret['images'][1];   // 第一个缩略图地址
-$ret['images'][2];   // 第二个缩略图地址
-$ret['images'][3];   // 第三个缩略图地址
-}
-else
-{
-$this->error = $ret['error'];
-return FALSE;
-}
+*array(600, 600),
+*array(300, 300),
+*array(100, 100),
+*));
+*返回值：
+*if($ret['ok'] == 1)
+*{
+*$ret['images'][0];   // 原图地址
+*$ret['images'][1];   // 第一个缩略图地址
+*$ret['images'][2];   // 第二个缩略图地址
+*$ret['images'][3];   // 第三个缩略图地址
+*}
+*else
+*{
+*$this->error = $ret['error'];
+*return FALSE;
+*}
  *
  */
 function uploadOne($imgName, $dirName, $thumb = array())

@@ -141,7 +141,8 @@ class GoodsController extends BaseController{
             //TP用I函数进行接收数据
             if($model->create(I('post.'),1)){
                 if($model->add()){
-                    $this->success("添加成功",__APP__."/Goods/lst");
+                    
+                    //$this->success("添加成功",__APP__."/Goods/lst");
                 }
             }else{
                 $error=$model->getError();
@@ -244,17 +245,17 @@ class GoodsController extends BaseController{
         $model=D('goods');
         
         if(IS_POST){
-
+            //var_dump($_POST);
             //如果使用create方法,只能用D函数而不能用M函数,model文件夹
 
             //TP用I函数进行接收数据
             if($model->create(I('post.'),2)){
                 if($model->save()){
-
+                    //echo M()->getLastSql();
                     $this->success("修改成功",__ROOT__."/lst");
                 }
             }else{
-
+                //echo M()->getLastSql();
                 $error=$model->getError();
                 $this->success("{$error}",__ROOT__."/edit");
             }

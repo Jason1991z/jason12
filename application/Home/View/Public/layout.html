@@ -5,16 +5,16 @@
 	<meta name="keyword" content="<?php echo $keyword?>">
 	<meta name="description" content="<?php echo $description?>">
 	<title><?php echo $_page_title?></title>
-	<link rel="stylesheet" href="__PUBLIC__/Home/style/base.css" type="text/css">
-	<link rel="stylesheet" href="__PUBLIC__/Home/style/global.css" type="text/css">
-	<link rel="stylesheet" href="__PUBLIC__/Home/style/header.css" type="text/css">
-	<link rel="stylesheet" href="__PUBLIC__/Home/style/bottomnav.css" type="text/css">
-	<link rel="stylesheet" href="__PUBLIC__/Home/style/footer.css" type="text/css">
+	<link rel="stylesheet" href="__ROOT__/public/Home/style/base.css" type="text/css">
+	<link rel="stylesheet" href="__ROOT__/public/Home/style/global.css" type="text/css">
+	<link rel="stylesheet" href="__ROOT__/public/Home/style/header.css" type="text/css">
+	<link rel="stylesheet" href="__ROOT__/public/Home/style/bottomnav.css" type="text/css">
+	<link rel="stylesheet" href="__ROOT__/public/Home/style/footer.css" type="text/css">
 
-	<script type="text/javascript" src="__PUBLIC__/Home/js/jquery-1.8.3.min.js"></script>
-	<script type="text/javascript" src="__PUBLIC__/Home/js/header.js"></script>
+	<script type="text/javascript" src="__ROOT__/public/Home/js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="__ROOT__/public/Home/js/header.js"></script>
 </head>
-
+<body>
 <!-- 顶部导航 start -->
 	<div class="topnav">
 		<div class="topnav_bd w1210 bc">
@@ -23,9 +23,10 @@
 			</div>
 			<div class="topnav_right fr">
 				<ul>
-					<li>您好，欢迎来到京西！[<a href="login.html">登录</a>] [<a href="register.html">免费注册</a>] </li>
+
+					<li id="loginInfo"></li>
 					<li class="line">|</li>
-					<li>我的订单</li>
+					<li><a href="__APP__/My/order">我的订单</a></li>
 					<li class="line">|</li>
 					<li>客户服务</li>
 
@@ -63,4 +64,22 @@
 			<a href=""><img src="images/beian.gif" alt="" /></a>
 		</p>
 	</div>
+	</body>
+	</html>
 	<!-- 底部版权 end -->
+	<script>
+		$.ajax({
+			type:"get",
+			url:"__APP__/Member/ajaxChkLogin",
+			dataType:"json",
+			success:function(data){
+				var li="";
+				if(data.login==1){
+					li +="<li>您好，"+data.username+"[<a href='__APP__/Member/logout'>退出</a>]";
+				}else{
+					li +="<li>您好，欢迎来到京西！[<a href='__APP__/Member/login'>登录</a>] [<a href='__APP__/Member/regist'>免费注册</a>] </li>";
+				}
+				$("#loginInfo ").html(li);
+			}
+		});
+	</script>

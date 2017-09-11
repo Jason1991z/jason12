@@ -5,16 +5,16 @@
 	<meta name="keyword" content="<?php echo $keyword?>">
 	<meta name="description" content="<?php echo $description?>">
 	<title><?php echo $_page_title?></title>
-	<link rel="stylesheet" href="/ECshop/Public/Home/style/base.css" type="text/css">
-	<link rel="stylesheet" href="/ECshop/Public/Home/style/global.css" type="text/css">
-	<link rel="stylesheet" href="/ECshop/Public/Home/style/header.css" type="text/css">
-	<link rel="stylesheet" href="/ECshop/Public/Home/style/bottomnav.css" type="text/css">
-	<link rel="stylesheet" href="/ECshop/Public/Home/style/footer.css" type="text/css">
+	<link rel="stylesheet" href="/ECshop/public/Home/style/base.css" type="text/css">
+	<link rel="stylesheet" href="/ECshop/public/Home/style/global.css" type="text/css">
+	<link rel="stylesheet" href="/ECshop/public/Home/style/header.css" type="text/css">
+	<link rel="stylesheet" href="/ECshop/public/Home/style/bottomnav.css" type="text/css">
+	<link rel="stylesheet" href="/ECshop/public/Home/style/footer.css" type="text/css">
 
-	<script type="text/javascript" src="/ECshop/Public/Home/js/jquery-1.8.3.min.js"></script>
-	<script type="text/javascript" src="/ECshop/Public/Home/js/header.js"></script>
+	<script type="text/javascript" src="/ECshop/public/Home/js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="/ECshop/public/Home/js/header.js"></script>
 </head>
-
+<body>
 <!-- 顶部导航 start -->
 	<div class="topnav">
 		<div class="topnav_bd w1210 bc">
@@ -23,9 +23,10 @@
 			</div>
 			<div class="topnav_right fr">
 				<ul>
-					<li>您好，欢迎来到京西！[<a href="login.html">登录</a>] [<a href="register.html">免费注册</a>] </li>
+
+					<li id="loginInfo"></li>
 					<li class="line">|</li>
-					<li>我的订单</li>
+					<li><a href="/ECshop/index.php/My/order">我的订单</a></li>
 					<li class="line">|</li>
 					<li>客户服务</li>
 
@@ -36,9 +37,10 @@
 	
 	
 
+<!-- 引入这个页面特有的CSS和JS -->
 <link rel="stylesheet" href="/ECshop/Public/Home/style/index.css" type="text/css">
 <script type="text/javascript" src="/ECshop/Public/Home/js/index.js"></script>
-<body>
+
 	<!-- 顶部导航 end -->
 	
 	<div style="clear:both;"></div>
@@ -71,17 +73,15 @@
 			<!-- 头部搜索 end -->
 
 			<!-- 用户中心 start-->
-			<div class="user fl">
+				<div class="user fl" id="test">
 				<dl>
 					<dt>
 						<em></em>
-						<a href="">用户中心</a>
+						<a href="" >用户中心</a>
 						<b></b>
 					</dt>
 					<dd>
-						<div class="prompt">
-							您好，请<a href="">登录</a>
-						</div>
+						<p id="userLoging"><div class='prompt'>您好，请<a href=''>登录</a></div></p>
 						<div class="uclist mt10">
 							<ul class="list1 fl">
 								<li><a href="">用户信息></a></li>
@@ -101,16 +101,13 @@
 						<div style="clear:both;"></div>
 						<div class="viewlist mt10">
 							<h3>最近浏览的商品：</h3>
-							<ul>
-								<li><a href=""><img src="/ECshop/Public/Home/images/view_list1.jpg" alt="" /></a></li>
-								<li><a href=""><img src="/ECshop/Public/Home/images/view_list2.jpg" alt="" /></a></li>
-								<li><a href=""><img src="/ECshop/Public/Home/images/view_list3.jpg" alt="" /></a></li>
-							</ul>
+							<div id="look_history" style="font-size:15px;">最近无浏览历史</div>
 						</div>
 					</dd>
 				</dl>
 			</div>
 			<!-- 用户中心 end-->
+
 
 			<!-- 购物车 start -->
 			<div class="cart fl">
@@ -143,8 +140,8 @@
 				
 				<div class="cat_bd <?php if($_show_nav==0){echo 'none';}?>">
 					
-					<?php var_dump($_arr);?>
-					<?php foreach($pridata as $k=>$v){?>
+					
+					<?php foreach($catdata as $k=>$v){?>
 						<div class="cat item1">
 							<h3><a href=""><?php echo $v['cat_name']?></a><b></b></h3>
 							<div class="cat_detail">
@@ -185,6 +182,57 @@
 	</div>
 	<!-- 头部 end-->
 	<div style="clear:both;"></div>
+
+	<script>
+	
+	//用户信息	
+	$.ajax({
+		type:"get",
+		url:"/ECshop/index.php/index/AjaxUserCenter",
+		dataType:"json",
+		success:function(data){
+			
+			var i="";
+
+			if(data!=""){
+				i += "<div class='prompt'>您好,<a href=''>"+data.username+"</a></div>";
+			}
+			
+			$("#userLoging").html(i);
+		}
+	});
+
+	//用户中心->最近浏览的商品
+	
+	$.ajax({
+		type:'get',
+		url:"/ECshop/index.php/index/AjaxLook_history",
+		dataType:"json",
+		success:function(data){
+			
+			var i ="";
+			if(data != null){
+				i+="<ul>";
+
+				$(data).each(function(k,v){
+					
+					i+="<li><a href=''><img src='/ECshop/public/uploads/"+v.mid_logo+"' alt='' /></a></li>";
+
+				});
+				
+				i+="</ul>";
+			}
+			$("#look_history").html(i);
+		}
+	});
+		
+		
+	
+
+	
+	
+
+	</script>
 	
 	
 	<!-- 综合区域 start 包括幻灯展示，商城快报 -->
@@ -332,41 +380,15 @@
 				<!-- 疯狂抢购 start-->
 				<div class="crazy">
 					<ul>
-						<li>
-							<dl>
-								<dt><a href=""><img src="/ECshop/Public/Home/images/crazy1.jpg" alt="" /></a></dt>
-								<dd><a href="">惠普G4-1332TX 14英寸</a></dd>
-								<dd><span>售价：</span><strong> ￥2999.00</strong></dd>
-							</dl>
-						</li>
-						<li>
-							<dl>
-								<dt><a href=""><img src="/ECshop/Public/Home/images/crazy2.jpg" alt="" /></a></dt>
-								<dd><a href="">直降100元！TCL118升冰箱</a></dd>
-								<dd><span>售价：</span><strong> ￥800.00</strong></dd>
-							</dl>
-						</li>
-						<li>
-							<dl>
-								<dt><a href=""><img src="/ECshop/Public/Home/images/crazy3.jpg" alt="" /></a></dt>
-								<dd><a href="">康佳液晶37寸电视机</a></dd>
-								<dd><span>售价：</span><strong> ￥2799.00</strong></dd>
-							</dl>
-						</li>
-						<li>
-							<dl>
-								<dt><a href=""><img src="/ECshop/Public/Home/images/crazy4.jpg" alt="" /></a></dt>
-								<dd><a href="">梨子平板电脑7.9寸</a></dd>
-								<dd><span>售价：</span><strong> ￥1999.00</strong></dd>
-							</dl>
-						</li>
-						<li>
-							<dl>
-								<dt><a href=""><img src="/ECshop/Public/Home/images/crazy5.jpg" alt="" /></a></dt>
-								<dd><a href="">好声音耳机</a></dd>
-								<dd><span>售价：</span><strong> ￥199.00</strong></dd>
-							</dl>
-						</li>
+						<?php foreach($proinfo as $k=>$v){?>
+							<li>
+								<dl>
+									<dt><a href="/ECshop/index.php/index/goods/id/<?php echo $v['id']?>"><img src="/ECshop/Public/uploads/<?php echo $v['mid_logo']?>" alt="" /></a></dt>
+									<dd><a href="/ECshop/index.php/index/goods/id/<?php echo $v['id']?>"><?php echo $v['goods_name']?></a></dd>
+									<dd><span>售价：</span><strong> ￥<?php echo $v['promote_price']?></strong></dd>
+								</dl>
+							</li>
+						<?php }?>
 					</ul>	
 				</div>
 				<!-- 疯狂抢购 end-->
@@ -374,27 +396,15 @@
 				<!-- 热卖商品 start -->
 				<div class="hot none">
 					<ul>
-						<li>
-							<dl>
-								<dt><a href=""><img src="/ECshop/Public/Home/images/hot1.jpg" alt="" /></a></dt>
-								<dd><a href="">索尼双核五英寸四核手机！</a></dd>
-								<dd><span>售价：</span><strong> ￥1386.00</strong></dd>
-							</dl>
-						</li>
-						<li>
-							<dl>
-								<dt><a href=""><img src="/ECshop/Public/Home/images/hot2.jpg" alt="" /></a></dt>
-								<dd><a href="">华为通话平板仅需969元！</a></dd>
-								<dd><span>售价：</span><strong> ￥969.00</strong></dd>
-							</dl>
-						</li>
-						<li>
-							<dl>
-								<dt><a href=""><img src="/ECshop/Public/Home/images/hot3.jpg" alt="" /></a></dt>
-								<dd><a href="">卡姿兰明星单品7件彩妆套装</a></dd>
-								<dd><span>售价：</span><strong> ￥169.00</strong></dd>
-							</dl>
-						</li>
+						<?php foreach($hotinfo as $v){?>
+							<li>
+								<dl>
+									<dt><a href="/ECshop/index.php/index/goods/id/<?php echo $v['id']?>"><img src="/ECshop/Public/uploads/<?php echo $v['mid_logo']?>" alt="" /></a></dt>
+									<dd><a href="/ECshop/index.php/index/goods/id/<?php echo $v['id']?>"><?php echo $v['goods_name']?></a></dd>
+									<dd><span>售价：</span><strong> ￥<?php echo $v['shop_price']?></strong></dd>
+								</dl>
+							</li>
+						<?php }?>
 					</ul>
 				</div>
 				<!-- 热卖商品 end -->
@@ -402,27 +412,15 @@
 				<!-- 推荐商品 atart -->
 				<div class="recommend none">
 					<ul>
-						<li>
-							<dl>
-								<dt><a href=""><img src="/ECshop/Public/Home/images/recommend1.jpg" alt="" /></a></dt>
-								<dd><a href="">黄飞红麻辣花生整箱特惠装</a></dd>
-								<dd><span>售价：</span><strong> ￥139.00</strong></dd>
-							</dl>
-						</li>
-						<li>
-							<dl>
-								<dt><a href=""><img src="/ECshop/Public/Home/images/recommend2.jpg" alt="" /></a></dt>
-								<dd><a href="">戴尔IN1940MW 19英寸LE</a></dd>
-								<dd><span>售价：</span><strong> ￥679.00</strong></dd>
-							</dl>
-						</li>
-						<li>
-							<dl>
-								<dt><a href=""><img src="/ECshop/Public/Home/images/recommend3.jpg" alt="" /></a></dt>
-								<dd><a href="">罗辑思维音频车载CD</a></dd>
-								<dd><span>售价：</span><strong> ￥24.80</strong></dd>
-							</dl>
-						</li>
+						<?php foreach($bestinfo as $v){?>
+							<li>
+								<dl>
+									<dt><a href="/ECshop/index.php/index/goods/id/<?php echo $v['id']?>"><img src="/ECshop/Public/uploads/<?php echo $v['mid_logo']?>" alt="" /></a></dt>
+									<dd><a href="/ECshop/index.php/index/goods/id/<?php echo $v['id']?>"><?php echo $v['goods_name']?></a></dd>
+									<dd><span>售价：</span><strong> ￥<?php echo $v['shop_price']?></strong></dd>
+								</dl>
+							</li>
+						<?php }?>
 					</ul>
 				</div>
 				<!-- 推荐商品 end -->
@@ -430,27 +428,15 @@
 				<!-- 新品上架 start-->
 				<div class="new none">
 					<ul>
-						<li>
-							<dl>
-								<dt><a href=""><img src="/ECshop/Public/Home/images/new1.jpg" alt="" /></a></dt>
-								<dd><a href="">E路航T70超薄GPS 7寸大屏！</a></dd>
-								<dd><span>售价：</span><strong> ￥369.00</strong></dd>
-							</dl>
-						</li>
-						<li>
-							<dl>
-								<dt><a href=""><img src="/ECshop/Public/Home/images/new2.jpg" alt="" /></a></dt>
-								<dd><a href="">乐和居 爆品 特价疯狂抢</a></dd>
-								<dd><span>售价：</span><strong> ￥2799.00</strong></dd>
-							</dl>
-						</li>
-						<li>
-							<dl>
-								<dt><a href=""><img src="/ECshop/Public/Home/images/new3.jpg" alt="" /></a></dt>
-								<dd><a href="">北欧 套装 抄底再续最后几小时</a></dd>
-								<dd><span>售价：</span><strong> ￥999.00</strong></dd>
-							</dl>
-						</li>
+						<?php foreach($newinfo as $v){?>
+							<li>
+								<dl>
+									<dt><a href="/ECshop/index.php/index/goods/id/<?php echo $v['id']?>"><img src="/ECshop/Public/uploads/<?php echo $v['mid_logo']?>" alt="" /></a></dt>
+									<dd><a href="/ECshop/index.php/index/goods/id/<?php echo $v['id']?>"><?php echo $v['goods_name']?></a></dd>
+									<dd><span>售价：</span><strong> ￥<?php echo $v['shop_price']?></strong></dd>
+								</dl>
+							</li>
+						<?php }?>
 					</ul>
 				</div>
 				<!-- 新品上架 end-->
@@ -514,184 +500,58 @@
 	
 	<div style="clear:both;"></div>
 
+	<?php foreach($floorInfo as $k=>$v){?>
 	<!--1F 电脑办公 start -->
 	<div class="floor1 floor w1210 bc mt10">
 		<!-- 1F 左侧 start -->
+		
 		<div class="floor_left fl">
 			<!-- 商品分类信息 start-->
+
 			<div class="cate fl">
-				<h2>电脑、办公</h2>
+				<h2><?php echo $v['cat_name']?></h2>
 				<div class="cate_wrap">
 					<ul>
-						<li><a href=""><b>.</b>外设产品</a></li>
-						<li><a href=""><b>.</b>鼠标</a></li>
-						<li><a href=""><b>.</b>笔记本</a></li>
-						<li><a href=""><b>.</b>超极本</a></li>
-						<li><a href=""><b>.</b>平板电脑</a></li>
-						<li><a href=""><b>.</b>主板</a></li>
-						<li><a href=""><b>.</b>显卡</a></li>
-						<li><a href=""><b>.</b>打印机</a></li>
-						<li><a href=""><b>.</b>一体机</a></li>
-						<li><a href=""><b>.</b>投影机</a></li>
-						<li><a href=""><b>.</b>路由器</a></li>
-						<li><a href=""><b>.</b>网卡</a></li>
-						<li><a href=""><b>.</b>交换机</a></li>
+						<?php foreach($v['subcat'] as $k1=>$v1){?>
+							<li><a href="/ECshop/index.php/index/goods/id/<?php echo $v['id']?>"><b>.</b><?php echo $v1['cat_name']?></a></li>
+						<?php }?>
 					</ul>
-					<p><a href=""><img src="images/notebook.jpg" alt="" /></a></p>
+					<p><a href="/ECshop/index.php/index/goods/id/<?php echo $v['id']?>"><img src="/ECshop/Public/Home/images/notebook.jpg" alt="" /></a></p>
 				</div>
 				
 
 			</div>
 			<!-- 商品分类信息 end-->
-
-			<!-- 商品列表信息 start-->
-			<div class="goodslist fl">
-				<h2>
-					<span class="on">推荐商品</span>
-					<span>电脑整机</span>
-					<span>电脑配件</span>
-					<span>办公打印</span>
-					<span>网络产品</span>
-				</h2>
-				<div class="goodslist_wrap">
-					<div>
-						<ul>
-							<li>
-								<dl>
-									<dt><a href=""><img src="/ECshop/Public/Home/images/hpG4.jpg" alt="" /></a></dt>
-									<dd><a href="">惠普G4-1332TX 14英寸笔</a></dd>
-									<dd><span>售价：</span> <strong>￥2999.00</strong></dd>
-								</dl>
-							</li>
-
-							<li>
-								<dl>
-									<dt><a href=""><img src="/ECshop/Public/Home/images/thinkpad e420.jpg" alt="" /></a></dt>
-									<dd><a href="">ThinkPad E42014英寸笔..</a></dd>
-									<dd><span>售价：</span> <strong>￥4199.00</strong></dd>
-								</dl>
-							</li>
-
-							<li>
-								<dl>
-									<dt><a href=""><img src="/ECshop/Public/Home/images/acer4739.jpg" alt="" /></a></dt>
-									<dd><a href="">宏碁AS4739-382G32Mnk</a></dd>
-									<dd><span>售价：</span> <strong>￥2799.00</strong></dd>
-								</dl>
-							</li>
-
-							<li>
-								<dl>
-									<dt><a href=""><img src="/ECshop/Public/Home/images/samsung6800.jpg" alt="" /></a></dt>
-									<dd><a href="">三星Galaxy Tab P6800.</a></dd>
-									<dd><span>售价：</span> <strong>￥4699.00</strong></dd>
-								</dl>
-							</li>
-
-							<li>
-								<dl>
-									<dt><a href=""><img src="/ECshop/Public/Home/images/lh531.jpg" alt="" /></a></dt>
-									<dd><a href="">富士通LH531 14.1英寸笔记</a></dd>
-									<dd><span>售价：</span> <strong>￥2189.00</strong></dd>
-								</dl>
-							</li>
-
-							<li>
-								<dl>
-									<dt><a href=""><img src="/ECshop/Public/Home/images/qinghuax2.jpg" alt="" /></a></dt>
-									<dd><a href="">清华同方精锐X2笔记本 </a></dd>
-									<dd><span>售价：</span> <strong>￥2499.00</strong></dd>
-								</dl>
-							</li>
-						</ul>
-					</div>
-					
-					<div class="none">
-						<ul>
-							<li>
-								<dl>
-									<dt><a href=""><img src="/ECshop/Public/Home/images/hpG4.jpg" alt="" /></a></dt>
-									<dd><a href="">惠普G4-1332TX 14英寸笔</a></dd>
-									<dd><span>售价：</span> <strong>￥2999.00</strong></dd>
-								</dl>
-							</li>
-
-							<li>
-								<dl>
-									<dt><a href=""><img src="/ECshop/Public/Home/images/qinghuax2.jpg" alt="" /></a></dt>
-									<dd><a href="">清华同方精锐X2笔记本 </a></dd>
-									<dd><span>售价：</span> <strong>￥2499.00</strong></dd>
-								</dl>
-							</li>
-							
-						</ul>
-					</div>
-
-					<div class="none">
-						<ul>
-							<li>
-								<dl>
-									<dt><a href=""><img src="/ECshop/Public/Home/images/thinkpad e420.jpg" alt="" /></a></dt>
-									<dd><a href="">ThinkPad E42014英寸笔..</a></dd>
-									<dd><span>售价：</span> <strong>￥4199.00</strong></dd>
-								</dl>
-							</li>
-
-							<li>
-								<dl>
-									<dt><a href=""><img src="/ECshop/Public/Home/images/acer4739.jpg" alt="" /></a></dt>
-									<dd><a href="">宏碁AS4739-382G32Mnk</a></dd>
-									<dd><span>售价：</span> <strong>￥2799.00</strong></dd>
-								</dl>
-							</li>
-						</ul>
-					</div>
-
-					<div class="none">
-						<ul>
-							<li>
-								<dl>
-									<dt><a href=""><img src="/ECshop/Public/Home/images/acer4739.jpg" alt="" /></a></dt>
-									<dd><a href="">宏碁AS4739-382G32Mnk</a></dd>
-									<dd><span>售价：</span> <strong>￥2799.00</strong></dd>
-								</dl>
-							</li>
-
-							<li>
-								<dl>
-									<dt><a href=""><img src="/ECshop/Public/Home/images/samsung6800.jpg" alt="" /></a></dt>
-									<dd><a href="">三星Galaxy Tab P6800.</a></dd>
-									<dd><span>售价：</span> <strong>￥4699.00</strong></dd>
-								</dl>
-							</li>
-						</ul>
-					</div>
-
-					<div class="none">
-						<ul>
-							<li>
-								<dl>
-									<dt><a href=""><img src="/ECshop/Public/Home/images/samsung6800.jpg" alt="" /></a></dt>
-									<dd><a href="">三星Galaxy Tab P6800.</a></dd>
-									<dd><span>售价：</span> <strong>￥4699.00</strong></dd>
-								</dl>
-							</li>
-
-							<li>
-								<dl>
-									<dt><a href=""><img src="/ECshop/Public/Home/images/lh531.jpg" alt="" /></a></dt>
-									<dd><a href="">富士通LH531 14.1英寸笔记</a></dd>
-									<dd><span>售价：</span> <strong>￥2189.00</strong></dd>
-								</dl>
-							</li>
-						</ul>
+			
+				<!-- 商品列表信息 start-->
+				<div class="goodslist fl" id="goodslist<?php echo ($k); ?>">
+					<h2>
+						<?php foreach($v['recsubcat'] as $k2=>$v2){?>
+							<span <?php if($k2==0){echo "class='on'";}?>><?php echo $v2['cat_name']?></span>
+						<?php }?>
+					</h2>
+					<div class="goodslist_wrap" id="goodslist_wrap<?php echo ($k); ?>">
+						<?php foreach($v['recsubcat'] as $k2=>$v2){?>
+							<div <?php if($k2>0){echo "class='none'";}?>>
+								<ul>
+									<?php foreach($v2['goods'] as $k3=>$v3){?>
+										<li>
+											<dl>
+												<dt><a href="/ECshop/index.php/index/goods/id/<?php echo $v3['id']?>"><?php showImg($v3['mid_logo'])?></a></dt>
+												<dd><a href="/ECshop/index.php/index/goods/id/<?php echo $v3['id']?>"><?php echo $v3['goods_name']?></a></dd>
+												<dd><span>售价：</span> <strong>￥<?php echo $v3['shop_price']?></strong></dd>
+											</dl>
+										</li>
+									<?php }?>
+								</ul>
+							</div>
+						<?php }?>
 					</div>
 
 				</div>
+				<!-- 商品列表信息 end-->
 			</div>
-			<!-- 商品列表信息 end-->
-		</div>
-		<!-- 1F 左侧 end -->
+			<!-- 1F 左侧 end -->
 		
 		<!-- 右侧 start -->
 		<div class="sidebar fl ml10">
@@ -700,15 +560,9 @@
 				<h2><a href="">更多品牌&nbsp;></a><strong>品牌旗舰店</strong></h2>
 				<div class="sidebar_wrap">
 					<ul>
-						<li><a href=""><img src="/ECshop/Public/Home/images/dell.gif" alt="" /></a></li>
-						<li><a href=""><img src="/ECshop/Public/Home/images/acer.gif" alt="" /></a></li>
-						<li><a href=""><img src="/ECshop/Public/Home/images/fujitsu.jpg" alt="" /></a></li>
-						<li><a href=""><img src="/ECshop/Public/Home/images/hp.jpg" alt="" /></a></li>
-						<li><a href=""><img src="/ECshop/Public/Home/images/lenove.jpg" alt="" /></a></li>
-						<li><a href=""><img src="/ECshop/Public/Home/images/samsung.gif" alt="" /></a></li>
-						<li><a href=""><img src="/ECshop/Public/Home/images/dlink.gif" alt="" /></a></li>
-						<li><a href=""><img src="/ECshop/Public/Home/images/seagate.jpg" alt="" /></a></li>
-						<li><a href=""><img src="/ECshop/Public/Home/images/intel.jpg" alt="" /></a></li>
+						<?php foreach($v['brand'] as $k=>$v){?>
+							<li><a href="/ECshop/index.php/index/goods/id/<?php echo $v['id']?>"><?php showImg($v['logo'])?></a></li>
+						<?php }?>
 					</ul>
 				</div>
 			</div>
@@ -735,11 +589,12 @@
 			</div>
 			<!-- 广告 end -->
 		</div>
+
 		<!-- 右侧 end -->
 
 	</div>
-	<!--1F 电脑办公 start -->
-
+	<!--1F 电脑办公 end-->
+	<?php }?>
 	
 	<div style="clear:both;"></div>
 
@@ -807,8 +662,6 @@
 	</div>
 	
 
-</body>
-</html>
 	<!-- 底部导航 end -->
 
 	<div style="clear:both;"></div>
@@ -837,4 +690,22 @@
 			<a href=""><img src="images/beian.gif" alt="" /></a>
 		</p>
 	</div>
+	</body>
+	</html>
 	<!-- 底部版权 end -->
+	<script>
+		$.ajax({
+			type:"get",
+			url:"/ECshop/index.php/Member/ajaxChkLogin",
+			dataType:"json",
+			success:function(data){
+				var li="";
+				if(data.login==1){
+					li +="<li>您好，"+data.username+"[<a href='/ECshop/index.php/Member/logout'>退出</a>]";
+				}else{
+					li +="<li>您好，欢迎来到京西！[<a href='/ECshop/index.php/Member/login'>登录</a>] [<a href='/ECshop/index.php/Member/regist'>免费注册</a>] </li>";
+				}
+				$("#loginInfo ").html(li);
+			}
+		});
+	</script>

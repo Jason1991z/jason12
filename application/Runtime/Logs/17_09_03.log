@@ -1,0 +1,1440 @@
+[ 2017-09-03T23:51:48+08:00 ] ::1 /ECshop/index.php/index/goods/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-03T23:51:49+08:00 ] ::1 /ECshop/index.php/index/goods/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-03T23:51:52+08:00 ] ::1 /ECshop/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+
+[ 2017-09-03T23:51:52+08:00 ] ::1 /ECshop/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+
+[ 2017-09-03T23:51:53+08:00 ] ::1 /ECshop/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+
+[ 2017-09-03T23:51:54+08:00 ] ::1 /ECshop/index.php/index/goods/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-03T23:52:22+08:00 ] ::1 /ECshop/index.php/index/goods/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-03T23:52:23+08:00 ] ::1 /ECshop/index.php/index/goods/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-03T23:52:25+08:00 ] ::1 /ECshop/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+
+[ 2017-09-03T23:52:26+08:00 ] ::1 /ECshop/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+
+[ 2017-09-03T23:52:26+08:00 ] ::1 /ECshop/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+
+[ 2017-09-03T23:52:27+08:00 ] ::1 /ECshop/index.php/index/goods/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-03T23:52:31+08:00 ] ::1 /ECshop/admin.php/Category/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `privilege` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_role` [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM admin_role a left join role_pri b on a.role_id=b.role_id
+                left join privilege c on b.pri_id=c.id
+              WHERE ( admin_id=1 and module_name='Admin' 
+            and controller_name='Category' and action_name='edit' ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category` WHERE ( `cat_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-03T23:52:31+08:00 ] ::1 /ECshop/admin.php/Category/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `privilege` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin_role` [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM admin_role a left join role_pri b on a.role_id=b.role_id
+                left join privilege c on b.pri_id=c.id
+              WHERE ( admin_id=1 and module_name='Admin' 
+            and controller_name='Category' and action_name='edit' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category` WHERE ( `cat_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-03T23:52:31+08:00 ] ::1 /ECshop/admin.php/Category/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `privilege` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_role` [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM admin_role a left join role_pri b on a.role_id=b.role_id
+                left join privilege c on b.pri_id=c.id
+              WHERE ( admin_id=1 and module_name='Admin' 
+            and controller_name='Category' and action_name='edit' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category` WHERE ( `cat_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-03T23:52:34+08:00 ] ::1 /ECshop/admin.php/Category/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `privilege` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_role` [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM admin_role a left join role_pri b on a.role_id=b.role_id
+                left join privilege c on b.pri_id=c.id
+              WHERE ( admin_id=1 and module_name='Admin' 
+            and controller_name='Category' and action_name='lst' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-03T23:52:37+08:00 ] ::1 /ECshop/admin.php/Category/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `privilege` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_role` [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM admin_role a left join role_pri b on a.role_id=b.role_id
+                left join privilege c on b.pri_id=c.id
+              WHERE ( admin_id=1 and module_name='Admin' 
+            and controller_name='Category' and action_name='add' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-03T23:54:14+08:00 ] ::1 /ECshop/admin.php/Category/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `privilege` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin_role` [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM admin_role a left join role_pri b on a.role_id=b.role_id
+                left join privilege c on b.pri_id=c.id
+              WHERE ( admin_id=1 and module_name='Admin' 
+            and controller_name='Category' and action_name='add' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-03T23:54:15+08:00 ] ::1 /ECshop/index.php/index/goods/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\CategoryModel::getParents(), called in D:\WWW\ECshop\application\Home\Controller\IndexController.class.php on line 45 and defined D:\WWW\ECshop\application\Admin\Model\CategoryModel.class.php 第 113 行.
+NOTIC: [8] Undefined variable: cat_id D:\WWW\ECshop\application\Admin\Model\CategoryModel.class.php 第 114 行.
+SQL: SELECT `cat_name`,`pid`,`is_floor` FROM `category` LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: ret D:\WWW\ECshop\application\Admin\Model\CategoryModel.class.php 第 119 行.
+NOTIC: [8] Undefined variable: ret D:\WWW\ECshop\application\Admin\Model\CategoryModel.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-03T23:54:47+08:00 ] ::1 /ECshop/index.php/index/goods/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT `cat_name`,`pid`,`is_floor` FROM `category` WHERE ( `cat_id` = 2 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: ret D:\WWW\ECshop\application\Admin\Model\CategoryModel.class.php 第 119 行.
+NOTIC: [8] Undefined variable: ret D:\WWW\ECshop\application\Admin\Model\CategoryModel.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-03T23:54:48+08:00 ] ::1 /ECshop/index.php/index/goods/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT `cat_name`,`pid`,`is_floor` FROM `category` WHERE ( `cat_id` = 2 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: ret D:\WWW\ECshop\application\Admin\Model\CategoryModel.class.php 第 119 行.
+NOTIC: [8] Undefined variable: ret D:\WWW\ECshop\application\Admin\Model\CategoryModel.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-03T23:54:48+08:00 ] ::1 /ECshop/index.php/index/goods/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT `cat_name`,`pid`,`is_floor` FROM `category` WHERE ( `cat_id` = 2 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: ret D:\WWW\ECshop\application\Admin\Model\CategoryModel.class.php 第 119 行.
+NOTIC: [8] Undefined variable: ret D:\WWW\ECshop\application\Admin\Model\CategoryModel.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-03T23:54:49+08:00 ] ::1 /ECshop/index.php/index/goods/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT `cat_name`,`pid`,`is_floor` FROM `category` WHERE ( `cat_id` = 2 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: ret D:\WWW\ECshop\application\Admin\Model\CategoryModel.class.php 第 119 行.
+NOTIC: [8] Undefined variable: ret D:\WWW\ECshop\application\Admin\Model\CategoryModel.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-03T23:55:06+08:00 ] ::1 /ECshop/index.php/index/goods/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT `cat_name`,`pid`,`is_floor` FROM `category` WHERE ( `cat_id` = 2 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: ret D:\WWW\ECshop\application\Admin\Model\CategoryModel.class.php 第 119 行.
+NOTIC: [8] Undefined variable: ret D:\WWW\ECshop\application\Admin\Model\CategoryModel.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-03T23:57:00+08:00 ] ::1 /ECshop/index.php/index/goods/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT `cat_name`,`pid`,`is_floor` FROM `category` WHERE ( `cat_id` = 2 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: ret D:\WWW\ECshop\application\Admin\Model\CategoryModel.class.php 第 120 行.
+NOTIC: [8] Undefined variable: ret D:\WWW\ECshop\application\Admin\Model\CategoryModel.class.php 第 121 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-03T23:57:35+08:00 ] ::1 /ECshop/index.php/index/goods/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT `cat_name`,`pid`,`is_floor` FROM `category` WHERE ( `cat_id` = 4 ) LIMIT 1   [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: ret D:\WWW\ECshop\application\Admin\Model\CategoryModel.class.php 第 120 行.
+NOTIC: [8] Undefined variable: ret D:\WWW\ECshop\application\Admin\Model\CategoryModel.class.php 第 121 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-09-03T23:57:43+08:00 ] ::1 /ECshop/index.php/index/goods/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT `cat_name`,`pid`,`is_floor` FROM `category` WHERE ( `cat_id` = 11 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: ret D:\WWW\ECshop\application\Admin\Model\CategoryModel.class.php 第 120 行.
+NOTIC: [8] Undefined variable: ret D:\WWW\ECshop\application\Admin\Model\CategoryModel.class.php 第 121 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-03T23:57:51+08:00 ] ::1 /ECshop/index.php/index/goods/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT `cat_name`,`pid`,`is_floor` FROM `category` WHERE ( `cat_id` = 11 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: ret D:\WWW\ECshop\application\Admin\Model\CategoryModel.class.php 第 120 行.
+NOTIC: [8] Undefined variable: ret D:\WWW\ECshop\application\Admin\Model\CategoryModel.class.php 第 121 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-03T23:58:11+08:00 ] ::1 /ECshop/index.php/index/goods/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.000000s ]
+SQL: SELECT `cat_name`,`pid`,`is_floor` FROM `category` WHERE ( `cat_id` = 22 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: ret D:\WWW\ECshop\application\Admin\Model\CategoryModel.class.php 第 120 行.
+NOTIC: [8] Undefined variable: ret D:\WWW\ECshop\application\Admin\Model\CategoryModel.class.php 第 121 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 174 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-03T23:58:56+08:00 ] ::1 /ECshop/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-03T23:58:56+08:00 ] ::1 /ECshop/admin.php/Index/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-03T23:58:56+08:00 ] ::1 /ECshop/admin.php/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-03T23:58:56+08:00 ] ::1 /ECshop/admin.php/Index/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `privilege` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `privilege`  [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-03T23:58:58+08:00 ] ::1 /ECshop/admin.php/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `privilege` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_role` [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM admin_role a left join role_pri b on a.role_id=b.role_id
+                left join privilege c on b.pri_id=c.id
+              WHERE ( admin_id=1 and module_name='Admin' 
+            and controller_name='Goods' and action_name='lst' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `member_level` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.002001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name,group_concat(e.cat_name separator '<br/>') as ext_cat_name FROM goods a left join brand b on a.brand_id=b.id
+                  left join category c on a.cat_id=c.cat_id
+                  left join goods_cat d on a.id=d.goods_id
+                  left join category e on e.cat_id=d.cat_id  GROUP BY a.id ORDER BY a.id asc LIMIT 0,5   [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`brand_name` FROM `brand`  [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-03T23:59:03+08:00 ] ::1 /ECshop/admin.php/Goods/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `privilege` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_role` [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM admin_role a left join role_pri b on a.role_id=b.role_id
+                left join privilege c on b.pri_id=c.id
+              WHERE ( admin_id=1 and module_name='Admin' 
+            and controller_name='Goods' and action_name='edit' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods_pic` [ RunTime:0.022002s ]
+SQL: SHOW COLUMNS FROM `goods_cat` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.042002s ]
+SQL: SELECT * FROM `goods_cat` WHERE ( goods_id=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `brand`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`mid_pic` FROM `goods_pic` WHERE ( goods_id=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `member_price` [ RunTime:0.037002s ]
+SQL: SELECT * FROM `member_price` left join member_level on member_price.level_id=member_level.id  WHERE ( goods_id=1 )  [ RunTime:0.075005s ]
+SQL: SELECT * FROM `goods` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT a.id attrs_id,a.attr_name,a.attr_type,a.attr_option_values,a.type_id,b.id,b.attr_value,b.attr_id,b.goods_id FROM attribute a left join goods_attr b on a.id=b.attr_id and b.goods_id=1  WHERE ( a.type_id=4 ) ORDER BY attr_id asc  [ RunTime:0.081004s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Admin\16d1ca0da65854521bfc4704791eb5dc.php 第 174 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`type_name` FROM `type`  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Admin\16d1ca0da65854521bfc4704791eb5dc.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

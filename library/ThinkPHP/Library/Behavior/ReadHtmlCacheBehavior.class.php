@@ -13,6 +13,7 @@ use Think\Storage;
 /**
  * 系统行为扩展：静态缓存读取
  */
+$fp=null;
 class ReadHtmlCacheBehavior {
     // 行为扩展的执行入口必须是run
     public function run(&$params){
@@ -23,6 +24,15 @@ class ReadHtmlCacheBehavior {
                 // 读取静态页面输出
                 echo Storage::read(HTML_FILE_NAME,'html');
                 exit();
+            }else{
+                global $fp;
+                $fp=fopen("./read_html_cache.lock", "r");
+                flock($fp, LOCK_EX);
+                if( false !== $cacheTime && $this->checkHTMLCache(HTML_FILE_NAME,$cacheTime)) { //静态页面有效
+                    // 读取静态页面输出
+                    echo Storage::read(HTML_FILE_NAME,'html');
+                    exit();
+                }
             }
         }
     }

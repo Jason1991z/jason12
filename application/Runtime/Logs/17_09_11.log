@@ -1,0 +1,1209 @@
+[ 2017-09-11T00:20:13+08:00 ] ::1 /ECshop/index.php/Orders/order_success
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.003001s ]
+SQL: SELECT `total_price` FROM `orders` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\WWW\ECshop\application\Runtime\Cache\Home\b2ec1fa34fcc1c42abab31da0eded015.php 第 5 行.
+NOTIC: [8] Undefined variable: description D:\WWW\ECshop\application\Runtime\Cache\Home\b2ec1fa34fcc1c42abab31da0eded015.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T00:20:14+08:00 ] ::1 /ECshop/index.php/Member/ajaxChkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T00:20:15+08:00 ] ::1 /ECshop/index.php/My/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Admin\Model\OrderModel
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.070004s ]
+ERR: 1146:Table 'ecshop.order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `order`
+ERR: Think\Model:search方法不存在！
+
+[ 2017-09-11T00:22:32+08:00 ] ::1 /ECshop/index.php/My/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Admin\Model\OrderModel
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.001000s ]
+ERR: 1146:Table 'ecshop.order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `order`
+NOTIC: [8] Undefined variable: data D:\WWW\ECshop\application\Home\Controller\MyController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(application/Home/View/Common/layout.html): failed to open stream: No such file or directory D:\WWW\ECshop\library\ThinkPHP\Library\Think\Template.class.php 第 211 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-11T00:23:39+08:00 ] ::1 /ECshop/index.php/My/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Admin\Model\OrderModel
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.001000s ]
+ERR: 1146:Table 'ecshop.order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `order`
+NOTIC: [8] Undefined variable: data D:\WWW\ECshop\application\Home\Controller\MyController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(application/Home/View/Public/nav.html): failed to open stream: No such file or directory D:\WWW\ECshop\library\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(application/Home/View/Public/htlp.html): failed to open stream: No such file or directory D:\WWW\ECshop\library\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: keyword D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 5 行.
+NOTIC: [8] Undefined variable: description D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 6 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T00:23:39+08:00 ] ::1 /ECshop/index.php/Member/ajaxChkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T00:23:53+08:00 ] ::1 /ECshop/index.php/My/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Admin\Model\OrderModel
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.001000s ]
+ERR: 1146:Table 'ecshop.order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `order`
+NOTIC: [8] Undefined variable: data D:\WWW\ECshop\application\Home\Controller\MyController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(application/Home/View/Public /htlp.html): failed to open stream: No such file or directory D:\WWW\ECshop\library\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 5 行.
+NOTIC: [8] Undefined variable: description D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 6 行.
+NOTIC: [8] Undefined variable: _show_nav D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 135 行.
+NOTIC: [8] Undefined variable: _show_nav D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 136 行.
+NOTIC: [8] Undefined variable: _show_nav D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 141 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 299 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-11T00:23:53+08:00 ] ::1 /ECshop/index.php/index/AjaxUserCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.001000s ]
+SQL: SELECT `username`,`face`,`jifen` FROM `member` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-11T00:23:54+08:00 ] ::1 /ECshop/index.php/index/AjaxLook_history
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.002001s ]
+SQL: SELECT `mid_logo`,`goods_name`,`id` FROM `goods` WHERE ( `id` IN ('24','25','29','7','28','26') ) AND ( `is_on_sale` = '是' ) ORDER BY field(id,24,25,29,7,28,26)  [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T00:23:54+08:00 ] ::1 /ECshop/index.php/Member/ajaxChkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T00:27:45+08:00 ] ::1 /ECshop/index.php/My/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Admin\Model\OrderModel
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.001000s ]
+ERR: 1146:Table 'ecshop.order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `order`
+ERR: Think\Model:search方法不存在！
+
+[ 2017-09-11T00:27:57+08:00 ] ::1 /ECshop/index.php/My/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Admin\Model\OrderModel
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.001000s ]
+ERR: 1146:Table 'ecshop.order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `order`
+ERR: Think\Model:search方法不存在！
+
+[ 2017-09-11T00:28:16+08:00 ] ::1 /ECshop/index.php/My/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+
+[ 2017-09-11T00:29:33+08:00 ] ::1 /ECshop/index.php/My/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+NOTIC: [2] Declaration of Admin\Model\OrdersModel::_before_insert(&$data, &$option) should be compatible with Think\Model::_before_insert(&$data, $options) D:\WWW\ECshop\application\Admin\Model\OrdersModel.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.039002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` WHERE ( `member_id` = '1' ) AND ( `pay_status` = '否' ) LIMIT 1   [ RunTime:0.076005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM orders a WHERE ( `member_id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT a.id,a.shr_name,a.total_price,a.addtime,a.pay_status,GROUP_CONCAT(DISTINCT c.sm_logo) logo FROM orders a LEFT JOIN order_goods b ON a.id=b.order_id 
+		        LEFT JOIN goods c ON b.goods_id=c.id  WHERE ( `member_id` = '1' ) GROUP BY a.id LIMIT 0,20   [ RunTime:0.034002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(application/Home/View/Public /htlp.html): failed to open stream: No such file or directory D:\WWW\ECshop\library\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: keyword D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 5 行.
+NOTIC: [8] Undefined variable: description D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 6 行.
+NOTIC: [8] Undefined variable: _show_nav D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 135 行.
+NOTIC: [8] Undefined variable: _show_nav D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 136 行.
+NOTIC: [8] Undefined variable: _show_nav D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 141 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+ERR: Call to undefined function showImage()
+
+[ 2017-09-11T00:29:33+08:00 ] ::1 /ECshop/index.php/index/AjaxUserCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.053004s ]
+SQL: SELECT `username`,`face`,`jifen` FROM `member` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T00:29:33+08:00 ] ::1 /ECshop/index.php/index/AjaxLook_history
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.015000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.002000s ]
+SQL: SELECT `mid_logo`,`goods_name`,`id` FROM `goods` WHERE ( `id` IN ('24','25','29','7','28','26') ) AND ( `is_on_sale` = '是' ) ORDER BY field(id,24,25,29,7,28,26)  [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T00:29:50+08:00 ] ::1 /ECshop/index.php/My/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+NOTIC: [2] Declaration of Admin\Model\OrdersModel::_before_insert(&$data, &$option) should be compatible with Think\Model::_before_insert(&$data, $options) D:\WWW\ECshop\application\Admin\Model\OrdersModel.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` WHERE ( `member_id` = '1' ) AND ( `pay_status` = '否' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM orders a WHERE ( `member_id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT a.id,a.shr_name,a.total_price,a.addtime,a.pay_status,GROUP_CONCAT(DISTINCT c.sm_logo) logo FROM orders a LEFT JOIN order_goods b ON a.id=b.order_id 
+		        LEFT JOIN goods c ON b.goods_id=c.id  WHERE ( `member_id` = '1' ) GROUP BY a.id LIMIT 0,20   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(application/Home/View/Public /htlp.html): failed to open stream: No such file or directory D:\WWW\ECshop\library\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: keyword D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 5 行.
+NOTIC: [8] Undefined variable: description D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 6 行.
+NOTIC: [8] Undefined variable: _show_nav D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 135 行.
+NOTIC: [8] Undefined variable: _show_nav D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 136 行.
+NOTIC: [8] Undefined variable: _show_nav D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 141 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\2e062c782bb1739fbf6a3111ee0fc67a.php 第 148 行.
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.001000s ]
+SQL: SELECT `total_price` FROM `orders` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T00:29:50+08:00 ] ::1 /ECshop/index.php/index/AjaxUserCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.001000s ]
+SQL: SELECT `username`,`face`,`jifen` FROM `member` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T00:29:50+08:00 ] ::1 /ECshop/index.php/index/AjaxLook_history
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.001000s ]
+SQL: SELECT `mid_logo`,`goods_name`,`id` FROM `goods` WHERE ( `id` IN ('24','25','29','7','28','26') ) AND ( `is_on_sale` = '是' ) ORDER BY field(id,24,25,29,7,28,26)  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-11T00:29:50+08:00 ] ::1 /ECshop/index.php/Member/ajaxChkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-11T12:03:53+08:00 ] ::1 /ECshop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.416023s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.100005s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.004001s ]
+SQL: SELECT `id`,`promote_price`,`goods_name`,`mid_logo` FROM `goods` WHERE ( is_on_sale='是' and promote_price > 0 and promote_start_date<'2017-09-11 12:03:52' and promote_end_date>'2017-09-11 12:03:52' ) ORDER BY sort_num asc LIMIT 5   [ RunTime:0.176010s ]
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' D:\WWW\ECshop\application\Home\Controller\IndexController.class.php 第 82 行.
+SQL: SELECT `id`,`shop_price`,`goods_name`,`mid_logo` FROM `goods` WHERE ( is_hot='是' ) ORDER BY sort_num asc LIMIT 5   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' D:\WWW\ECshop\application\Home\Controller\IndexController.class.php 第 85 行.
+SQL: SELECT `id`,`shop_price`,`goods_name`,`mid_logo` FROM `goods` WHERE ( is_best='是' ) ORDER BY sort_num asc LIMIT 5   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' D:\WWW\ECshop\application\Home\Controller\IndexController.class.php 第 88 行.
+SQL: SELECT `id`,`shop_price`,`goods_name`,`mid_logo` FROM `goods` WHERE ( is_new='是' ) ORDER BY sort_num asc LIMIT 5   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.027001s ]
+SQL: SELECT * FROM `category` WHERE ( is_floor='是' and pid=0 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('cat_id') )  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `goods_cat` [ RunTime:0.134007s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('cat_id') )  [ RunTime:0.070004s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Admin\Model\GoodsModel.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.002000s ]
+SQL: SELECT DISTINCT brand_id,b.brand_name,b.logo FROM goods a LEFT JOIN brand b ON a.brand_id=b.id  WHERE ( a.id IN () ) AND ( a.brand_id <> 0 ) LIMIT 9   [ RunTime:0.012001s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) AND ( a.brand_id <> 0 ) LIMIT 9' at line 1
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM goods a LEFT JOIN brand b ON a.brand_id=b.id  WHERE ( a.id IN () ) AND ( a.brand_id <> 0 ) LIMIT 9  
+SQL: SELECT * FROM `category` WHERE ( is_floor='否' and pid='1' )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category` WHERE ( is_floor='是' and pid='1' )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('25','26','27','28','29','30','31','16') )  [ RunTime:0.006001s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('25','26','27','28','29','30','31','16') )  [ RunTime:0.020001s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('15','29','30','31','32','33','40','41','42','2','3','7','10','11') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.044003s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.002000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('32','33','34','35','36','37','38','17') )  [ RunTime:0.001000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('32','33','34','35','36','37','38','17') )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('17','28') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('39','40','41','42','43','44','45','18') )  [ RunTime:0.001000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('39','40','41','42','43','44','45','18') )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('18') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('46','47','48','49','50','51','52','19') )  [ RunTime:0.001000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('46','47','48','49','50','51','52','19') )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('19') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.001001s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('53','54','55','56','57','58','59','20') )  [ RunTime:0.002000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('53','54','55','56','57','58','59','20') )  [ RunTime:0.043002s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('20') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('cat_id') )  [ RunTime:0.000000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('cat_id') )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Admin\Model\GoodsModel.class.php 第 80 行.
+SQL: SELECT DISTINCT brand_id,b.brand_name,b.logo FROM goods a LEFT JOIN brand b ON a.brand_id=b.id  WHERE ( a.id IN () ) AND ( a.brand_id <> 0 ) LIMIT 9   [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) AND ( a.brand_id <> 0 ) LIMIT 9' at line 1
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM goods a LEFT JOIN brand b ON a.brand_id=b.id  WHERE ( a.id IN () ) AND ( a.brand_id <> 0 ) LIMIT 9  
+SQL: SELECT * FROM `category` WHERE ( is_floor='否' and pid='13' )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `category` WHERE ( is_floor='是' and pid='13' )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('61','62','63','64','65','66','60') )  [ RunTime:0.000000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('61','62','63','64','65','66','60') )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('21') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('67') )  [ RunTime:0.000000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('67') )  [ RunTime:0.074004s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('22','12','23') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('68') )  [ RunTime:0.000000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('68') )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('13') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('69') )  [ RunTime:0.001000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('69') )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('14') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('70') )  [ RunTime:0.001000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('70') )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Admin\Model\GoodsModel.class.php 第 80 行.
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN () ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) ORDER BY sort_num asc LIMIT 8' at line 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN () ) ORDER BY sort_num asc LIMIT 8  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 383 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 515 行.
+NOTIC: [8] Undefined index: id D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 519 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 563 行.
+NOTIC: [8] Undefined index: id D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 516 行.
+NOTIC: [8] Undefined index: id D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 516 行.
+NOTIC: [8] Undefined index: id D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 516 行.
+NOTIC: [8] Undefined index: id D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 516 行.
+NOTIC: [8] Undefined index: id D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 519 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 537 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 563 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-11T12:03:54+08:00 ] ::1 /ECshop/index.php/index/AjaxUserCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T12:03:55+08:00 ] ::1 /ECshop/index.php/index/AjaxLook_history
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.033002s ]
+SQL: SELECT `mid_logo`,`goods_name`,`id` FROM `goods` WHERE ( `id` IN ('24','25','29','7','28','26') ) AND ( `is_on_sale` = '是' ) ORDER BY field(id,24,25,29,7,28,26)  [ RunTime:0.616035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-11T12:03:55+08:00 ] ::1 /ECshop/index.php/Member/ajaxChkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T12:04:09+08:00 ] ::1 /ECshop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.003000s ]
+SQL: SELECT `id`,`promote_price`,`goods_name`,`mid_logo` FROM `goods` WHERE ( is_on_sale='是' and promote_price > 0 and promote_start_date<'2017-09-11 12:04:09' and promote_end_date>'2017-09-11 12:04:09' ) ORDER BY sort_num asc LIMIT 5   [ RunTime:0.002001s ]
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' D:\WWW\ECshop\application\Home\Controller\IndexController.class.php 第 82 行.
+SQL: SELECT `id`,`shop_price`,`goods_name`,`mid_logo` FROM `goods` WHERE ( is_hot='是' ) ORDER BY sort_num asc LIMIT 5   [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' D:\WWW\ECshop\application\Home\Controller\IndexController.class.php 第 85 行.
+SQL: SELECT `id`,`shop_price`,`goods_name`,`mid_logo` FROM `goods` WHERE ( is_best='是' ) ORDER BY sort_num asc LIMIT 5   [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' D:\WWW\ECshop\application\Home\Controller\IndexController.class.php 第 88 行.
+SQL: SELECT `id`,`shop_price`,`goods_name`,`mid_logo` FROM `goods` WHERE ( is_new='是' ) ORDER BY sort_num asc LIMIT 5   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `category` WHERE ( is_floor='是' and pid=0 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('cat_id') )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods_cat` [ RunTime:0.002000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('cat_id') )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Admin\Model\GoodsModel.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.001000s ]
+SQL: SELECT DISTINCT brand_id,b.brand_name,b.logo FROM goods a LEFT JOIN brand b ON a.brand_id=b.id  WHERE ( a.id IN () ) AND ( a.brand_id <> 0 ) LIMIT 9   [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) AND ( a.brand_id <> 0 ) LIMIT 9' at line 1
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM goods a LEFT JOIN brand b ON a.brand_id=b.id  WHERE ( a.id IN () ) AND ( a.brand_id <> 0 ) LIMIT 9  
+SQL: SELECT * FROM `category` WHERE ( is_floor='否' and pid='1' )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category` WHERE ( is_floor='是' and pid='1' )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('25','26','27','28','29','30','31','16') )  [ RunTime:0.000000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('25','26','27','28','29','30','31','16') )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('15','29','30','31','32','33','40','41','42','2','3','7','10','11') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('32','33','34','35','36','37','38','17') )  [ RunTime:0.000000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('32','33','34','35','36','37','38','17') )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('17','28') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('39','40','41','42','43','44','45','18') )  [ RunTime:0.000000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('39','40','41','42','43','44','45','18') )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('18') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('46','47','48','49','50','51','52','19') )  [ RunTime:0.000000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('46','47','48','49','50','51','52','19') )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('19') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('53','54','55','56','57','58','59','20') )  [ RunTime:0.000000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('53','54','55','56','57','58','59','20') )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('20') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('cat_id') )  [ RunTime:0.000000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('cat_id') )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Admin\Model\GoodsModel.class.php 第 80 行.
+SQL: SELECT DISTINCT brand_id,b.brand_name,b.logo FROM goods a LEFT JOIN brand b ON a.brand_id=b.id  WHERE ( a.id IN () ) AND ( a.brand_id <> 0 ) LIMIT 9   [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) AND ( a.brand_id <> 0 ) LIMIT 9' at line 1
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM goods a LEFT JOIN brand b ON a.brand_id=b.id  WHERE ( a.id IN () ) AND ( a.brand_id <> 0 ) LIMIT 9  
+SQL: SELECT * FROM `category` WHERE ( is_floor='否' and pid='13' )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category` WHERE ( is_floor='是' and pid='13' )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('61','62','63','64','65','66','60') )  [ RunTime:0.000000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('61','62','63','64','65','66','60') )  [ RunTime:0.009000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('21') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001001s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('67') )  [ RunTime:0.001000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('67') )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('22','12','23') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('68') )  [ RunTime:0.000000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('68') )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('13') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('69') )  [ RunTime:0.000000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('69') )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('14') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('70') )  [ RunTime:0.000000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('70') )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Admin\Model\GoodsModel.class.php 第 80 行.
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN () ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) ORDER BY sort_num asc LIMIT 8' at line 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN () ) ORDER BY sort_num asc LIMIT 8  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 383 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 515 行.
+NOTIC: [8] Undefined index: id D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 519 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 563 行.
+NOTIC: [8] Undefined index: id D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 516 行.
+NOTIC: [8] Undefined index: id D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 516 行.
+NOTIC: [8] Undefined index: id D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 516 行.
+NOTIC: [8] Undefined index: id D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 516 行.
+NOTIC: [8] Undefined index: id D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 519 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 537 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 563 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T12:04:09+08:00 ] ::1 /ECshop/index.php/index/AjaxUserCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-11T12:04:39+08:00 ] ::1 /ECshop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`promote_price`,`goods_name`,`mid_logo` FROM `goods` WHERE ( is_on_sale='是' and promote_price > 0 and promote_start_date<'2017-09-11 12:04:39' and promote_end_date>'2017-09-11 12:04:39' ) ORDER BY sort_num asc LIMIT 5   [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' D:\WWW\ECshop\application\Home\Controller\IndexController.class.php 第 82 行.
+SQL: SELECT `id`,`shop_price`,`goods_name`,`mid_logo` FROM `goods` WHERE ( is_hot='是' ) ORDER BY sort_num asc LIMIT 5   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' D:\WWW\ECshop\application\Home\Controller\IndexController.class.php 第 85 行.
+SQL: SELECT `id`,`shop_price`,`goods_name`,`mid_logo` FROM `goods` WHERE ( is_best='是' ) ORDER BY sort_num asc LIMIT 5   [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' D:\WWW\ECshop\application\Home\Controller\IndexController.class.php 第 88 行.
+SQL: SELECT `id`,`shop_price`,`goods_name`,`mid_logo` FROM `goods` WHERE ( is_new='是' ) ORDER BY sort_num asc LIMIT 5   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `category` WHERE ( is_floor='是' and pid=0 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('cat_id') )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods_cat` [ RunTime:0.004000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('cat_id') )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Admin\Model\GoodsModel.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.003000s ]
+SQL: SELECT DISTINCT brand_id,b.brand_name,b.logo FROM goods a LEFT JOIN brand b ON a.brand_id=b.id  WHERE ( a.id IN () ) AND ( a.brand_id <> 0 ) LIMIT 9   [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) AND ( a.brand_id <> 0 ) LIMIT 9' at line 1
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM goods a LEFT JOIN brand b ON a.brand_id=b.id  WHERE ( a.id IN () ) AND ( a.brand_id <> 0 ) LIMIT 9  
+SQL: SELECT * FROM `category` WHERE ( is_floor='否' and pid='1' )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category` WHERE ( is_floor='是' and pid='1' )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('25','26','27','28','29','30','31','16') )  [ RunTime:0.001000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('25','26','27','28','29','30','31','16') )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('15','29','30','31','32','33','40','41','42','2','3','7','10','11') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.002000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('32','33','34','35','36','37','38','17') )  [ RunTime:0.000000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('32','33','34','35','36','37','38','17') )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('17','28') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('39','40','41','42','43','44','45','18') )  [ RunTime:0.001000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('39','40','41','42','43','44','45','18') )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('18') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('46','47','48','49','50','51','52','19') )  [ RunTime:0.001000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('46','47','48','49','50','51','52','19') )  [ RunTime:0.002001s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('19') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.002000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('53','54','55','56','57','58','59','20') )  [ RunTime:0.000000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('53','54','55','56','57','58','59','20') )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('20') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('cat_id') )  [ RunTime:0.000000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('cat_id') )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Admin\Model\GoodsModel.class.php 第 80 行.
+SQL: SELECT DISTINCT brand_id,b.brand_name,b.logo FROM goods a LEFT JOIN brand b ON a.brand_id=b.id  WHERE ( a.id IN () ) AND ( a.brand_id <> 0 ) LIMIT 9   [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) AND ( a.brand_id <> 0 ) LIMIT 9' at line 1
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM goods a LEFT JOIN brand b ON a.brand_id=b.id  WHERE ( a.id IN () ) AND ( a.brand_id <> 0 ) LIMIT 9  
+SQL: SELECT * FROM `category` WHERE ( is_floor='否' and pid='13' )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category` WHERE ( is_floor='是' and pid='13' )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('61','62','63','64','65','66','60') )  [ RunTime:0.000000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('61','62','63','64','65','66','60') )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('21') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('67') )  [ RunTime:0.000000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('67') )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('22','12','23') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('68') )  [ RunTime:0.000000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('68') )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('13') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('69') )  [ RunTime:0.001000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('69') )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('14') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('70') )  [ RunTime:0.000000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('70') )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Admin\Model\GoodsModel.class.php 第 80 行.
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN () ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) ORDER BY sort_num asc LIMIT 8' at line 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN () ) ORDER BY sort_num asc LIMIT 8  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 383 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 515 行.
+NOTIC: [8] Undefined index: id D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 519 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 563 行.
+NOTIC: [8] Undefined index: id D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 516 行.
+NOTIC: [8] Undefined index: id D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 516 行.
+NOTIC: [8] Undefined index: id D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 516 行.
+NOTIC: [8] Undefined index: id D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 516 行.
+NOTIC: [8] Undefined index: id D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 519 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 537 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 563 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-11T12:04:39+08:00 ] ::1 /ECshop/index.php/index/AjaxLook_history
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.005000s ]
+SQL: SELECT `mid_logo`,`goods_name`,`id` FROM `goods` WHERE ( `id` IN ('24','25','29','7','28','26') ) AND ( `is_on_sale` = '是' ) ORDER BY field(id,24,25,29,7,28,26)  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-11T12:04:39+08:00 ] ::1 /ECshop/index.php/index/AjaxUserCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-09-11T12:04:39+08:00 ] ::1 /ECshop/index.php/index/AjaxLook_history
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.003000s ]
+SQL: SELECT `mid_logo`,`goods_name`,`id` FROM `goods` WHERE ( `id` IN ('24','25','29','7','28','26') ) AND ( `is_on_sale` = '是' ) ORDER BY field(id,24,25,29,7,28,26)  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T12:04:39+08:00 ] ::1 /ECshop/index.php/Member/ajaxChkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-11T12:05:28+08:00 ] ::1 /ECshop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`promote_price`,`goods_name`,`mid_logo` FROM `goods` WHERE ( is_on_sale='是' and promote_price > 0 and promote_start_date<'2017-09-11 12:05:28' and promote_end_date>'2017-09-11 12:05:28' ) ORDER BY sort_num asc LIMIT 5   [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' D:\WWW\ECshop\application\Home\Controller\IndexController.class.php 第 82 行.
+SQL: SELECT `id`,`shop_price`,`goods_name`,`mid_logo` FROM `goods` WHERE ( is_hot='是' ) ORDER BY sort_num asc LIMIT 5   [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' D:\WWW\ECshop\application\Home\Controller\IndexController.class.php 第 85 行.
+SQL: SELECT `id`,`shop_price`,`goods_name`,`mid_logo` FROM `goods` WHERE ( is_best='是' ) ORDER BY sort_num asc LIMIT 5   [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' D:\WWW\ECshop\application\Home\Controller\IndexController.class.php 第 88 行.
+SQL: SELECT `id`,`shop_price`,`goods_name`,`mid_logo` FROM `goods` WHERE ( is_new='是' ) ORDER BY sort_num asc LIMIT 5   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `category` WHERE ( is_floor='是' and pid=0 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('cat_id') )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods_cat` [ RunTime:0.003000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('cat_id') )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Admin\Model\GoodsModel.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.001000s ]
+SQL: SELECT DISTINCT brand_id,b.brand_name,b.logo FROM goods a LEFT JOIN brand b ON a.brand_id=b.id  WHERE ( a.id IN () ) AND ( a.brand_id <> 0 ) LIMIT 9   [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) AND ( a.brand_id <> 0 ) LIMIT 9' at line 1
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM goods a LEFT JOIN brand b ON a.brand_id=b.id  WHERE ( a.id IN () ) AND ( a.brand_id <> 0 ) LIMIT 9  
+SQL: SELECT * FROM `category` WHERE ( is_floor='否' and pid='1' )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category` WHERE ( is_floor='是' and pid='1' )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('25','26','27','28','29','30','31','16') )  [ RunTime:0.001000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('25','26','27','28','29','30','31','16') )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('15','29','30','31','32','33','40','41','42','2','3','7','10','11') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('32','33','34','35','36','37','38','17') )  [ RunTime:0.000000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('32','33','34','35','36','37','38','17') )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('17','28') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('39','40','41','42','43','44','45','18') )  [ RunTime:0.000000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('39','40','41','42','43','44','45','18') )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('18') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('46','47','48','49','50','51','52','19') )  [ RunTime:0.001000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('46','47','48','49','50','51','52','19') )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('19') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('53','54','55','56','57','58','59','20') )  [ RunTime:0.000000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('53','54','55','56','57','58','59','20') )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('20') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.003001s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('cat_id') )  [ RunTime:0.002000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('cat_id') )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Admin\Model\GoodsModel.class.php 第 80 行.
+SQL: SELECT DISTINCT brand_id,b.brand_name,b.logo FROM goods a LEFT JOIN brand b ON a.brand_id=b.id  WHERE ( a.id IN () ) AND ( a.brand_id <> 0 ) LIMIT 9   [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) AND ( a.brand_id <> 0 ) LIMIT 9' at line 1
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM goods a LEFT JOIN brand b ON a.brand_id=b.id  WHERE ( a.id IN () ) AND ( a.brand_id <> 0 ) LIMIT 9  
+SQL: SELECT * FROM `category` WHERE ( is_floor='否' and pid='13' )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category` WHERE ( is_floor='是' and pid='13' )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('61','62','63','64','65','66','60') )  [ RunTime:0.001000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('61','62','63','64','65','66','60') )  [ RunTime:0.002000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('21') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('67') )  [ RunTime:0.001000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('67') )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('22','12','23') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('68') )  [ RunTime:0.000000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('68') )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('13') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.008001s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('69') )  [ RunTime:0.001000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('69') )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN ('14') ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `goods` WHERE ( `cat_id` IN ('70') )  [ RunTime:0.001000s ]
+SQL: SELECT distinct goods_id id FROM `goods_cat` WHERE ( `cat_id` IN ('70') )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Admin\Model\GoodsModel.class.php 第 80 行.
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN () ) ORDER BY sort_num asc LIMIT 8   [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) ORDER BY sort_num asc LIMIT 8' at line 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `goods` WHERE ( `is_on_sale` = '是' ) AND ( `is_floor` = '是' ) AND ( `id` IN () ) ORDER BY sort_num asc LIMIT 8  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 152 行.
+NOTIC: [8] Undefined index: children D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 148 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 383 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 515 行.
+NOTIC: [8] Undefined index: id D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 519 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 563 行.
+NOTIC: [8] Undefined index: id D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 516 行.
+NOTIC: [8] Undefined index: id D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 516 行.
+NOTIC: [8] Undefined index: id D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 516 行.
+NOTIC: [8] Undefined index: id D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 516 行.
+NOTIC: [8] Undefined index: id D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 519 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 537 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\ECshop\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 563 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T12:05:28+08:00 ] ::1 /ECshop/index.php/index/AjaxUserCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T12:05:28+08:00 ] ::1 /ECshop/index.php/index/AjaxLook_history
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.003000s ]
+SQL: SELECT `mid_logo`,`goods_name`,`id` FROM `goods` WHERE ( `id` IN ('24','25','29','7','28','26') ) AND ( `is_on_sale` = '是' ) ORDER BY field(id,24,25,29,7,28,26)  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-09-11T12:05:28+08:00 ] ::1 /ECshop/index.php/Member/ajaxChkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
